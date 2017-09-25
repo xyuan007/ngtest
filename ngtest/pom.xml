@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.xyuan.ngtest</groupId>
-  <artifactId>ngtest</artifactId>
+  <artifactId>jx</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -144,6 +144,12 @@
 		    <groupId>org.yaml</groupId>
 		    <artifactId>snakeyaml</artifactId>
 		    <version>1.15</version>
-		</dependency>        
+		</dependency>   
+		<dependency>
+		    <groupId>org.bouncycastle</groupId>
+		    <artifactId>bcprov-jdk15on</artifactId>
+		    <version>1.54</version>
+		</dependency>	
+					     
   </dependencies>
 </project>
