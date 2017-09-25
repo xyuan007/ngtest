@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='checkok'>
+		{menuName: "test1123123"}
+	</TestCase>
+	<TestCase name='checkfail'>
+		{menuName: "test"}
+	</TestCase>	
+</TestSuite>

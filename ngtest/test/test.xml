@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="1">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.Listener.TestListener" />
+  </listeners>
+
+  <test name="test">
+    <classes>
+		<class name="com.xyuan.ngtest.ps.comp.SuiteInit"/>    
+		<class name="com.xyuan.ngtest.ps.comp.login"/>
+		
+		<class name="com.xyuan.ngtest.ps.comp.comp_search"/>	
+    </classes>
+  </test>
+   
+</suite>

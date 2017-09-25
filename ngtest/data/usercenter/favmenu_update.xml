@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='test'>
+		<id name='favmenuid' type='output'>favmenuid</id>
+		<menuName>test1</menuName>
+	</TestCase>
+</TestSuite>

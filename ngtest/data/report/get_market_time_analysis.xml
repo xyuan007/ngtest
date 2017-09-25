@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+		<start_date>2014-03-03</start_date>	
+		<end_date>2014-03-31</end_date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<sample_days>60</sample_days>		
+		<benchmark>000300</benchmark>	
+		<is_summary>false</is_summary>		
+		<date_freq>1</date_freq>		
+		<return_method>2</return_method>		
+		<model_method>1</model_method>						
+	</TestCase>
+	<TestCase name='cross_holiday'>
+		<start_date>2014-01-27</start_date>	
+		<end_date>2014-02-26</end_date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<sample_days>60</sample_days>		
+		<benchmark>000300</benchmark>	
+		<is_summary>false</is_summary>		
+		<date_freq>1</date_freq>		
+		<return_method>2</return_method>		
+		<model_method>1</model_method>						
+	</TestCase>	
+	<TestCase name='bond_query'>
+		<start_date>2016-12-01</start_date>	
+		<end_date>2016-12-30</end_date>
+		<combination>{"c_list":[{"id":23,"name":"旭诚四期"}]}</combination>
+		<sample_days>60</sample_days>		
+		<benchmark>000300</benchmark>	
+		<is_summary>false</is_summary>		
+		<date_freq>1</date_freq>		
+		<return_method>2</return_method>		
+		<model_method>1</model_method>						
+	</TestCase>		
+</TestSuite>

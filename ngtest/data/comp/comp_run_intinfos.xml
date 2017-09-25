@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='webiste'>
+		{compId: "99577", pageNo: 1, pageSize: 5}
+	</TestCase>
+	<TestCase name='copyrights'>
+		{compId: "99558", pageNo: 1, pageSize: 5}
+	</TestCase>	
+	<TestCase name='certificate'>
+		{compId: "104395", pageNo: 1, pageSize: 5}
+	</TestCase>	
+	<TestCase name='patent'>
+		{compId: "101663", pageNo: 1, pageSize: 5}
+	</TestCase>	
+	<TestCase name='softcopyright'>
+		{compId: "122884", pageNo: 1, pageSize: 5}
+	</TestCase>	
+</TestSuite>

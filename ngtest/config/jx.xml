@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<!-- 登录 -->
+	<model name='login'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/user/login?user_account=jxadmin&amp;user_password=bc49071a4a2cc799678f001889139964e436d2b5</url>
+	</model>
+	<!-- 大类资产配置 -->
+	<model name='get_categories_asset'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_categories_asset</url>
+	</model>
+	<!-- 股票资产配置 -->
+	<model name='get_stock_asset'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_stock_asset</url>
+	</model>	
+	<!-- 债券资产配置 -->
+	<model name='get_bond_asset'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_bond_asset</url>
+	</model>	
+	<!-- 基金资产配置 -->
+	<model name='get_fund_asset'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_fund_asset</url>
+	</model>		
+	<!-- 组合资产走势 -->
+	<model name='get_combination_asset'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_combination_asset</url>
+	</model>		
+	<model name='get_combination_asset_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_combination_asset_cycle</url>
+	</model>
+	<!-- 组合盈亏走势 -->
+	<model name='get_during_break'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_during_break</url>
+	</model>
+	<!-- 组合持仓变化 -->
+	<model name='get_combination_position'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_combination_position</url>
+	</model>	
+	<!-- 持仓重合度分析 -->
+	<model name='get_combination_analyze'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationquery/get_combination_analyze</url>
+	</model>
+	<!-- 市场风险概貌 -->
+	<model name='get_market_risk_profile'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_market_risk_profile</url>
+	</model>		
+	<model name='get_market_risk_profile_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_market_risk_profile_cycle</url>
+	</model>
+	<!-- 流动性风险分析 -->
+	<model name='get_fluct_analysis_configs'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_fluct_analysis_configs</url>
+	</model>	
+	<!-- 集中度分析 -->
+	<model name='get_affinity_analysis_configs'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_affinity_analysis_configs</url>
+	</model>	
+	<model name='get_affinity_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_affinity_analysis_cycle</url>
+	</model>	
+	<!-- 情景分析-指数涨跌 -->
+	<model name='get_scene_analysis'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_scene_analysis</url>
+	</model>	
+	<model name='get_scene_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationrisk/get_scene_analysis_cycle</url>
+	</model>
+	<!-- 压力测试 -->
+	<model name='get_risk_pressure_drop'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_risk_pressure_drop</url>
+	</model>	
+	<model name='get_data_pressure_test'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_data_pressure_test</url>
+	</model>
+	<!-- 收益概貌 -->
+	<model name='set_earnings'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/set_earnings</url>
+	</model>	
+	<model name='get_earnings'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_earnings</url>
+	</model>
+	<!-- 收益概貌时序 -->
+	<model name='get_earningss_sequential'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_earningss_sequential</url>
+	</model>	
+	<model name='get_earningss_sequential_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_earningss_sequential_cycle</url>
+	</model>
+	<!-- 归因分析 、归因分析时序-->
+	<model name='get_brinson_analysis'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_brinson_analysis</url>
+	</model>	
+	<model name='get_brinson_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_brinson_analysis_cycle</url>
+	</model>
+	<!-- 主动归因贡献 -->
+	<model name='get_contribute_analysis'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_contribute_analysis</url>
+	</model>	
+	<model name='get_contribute_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_contribute_analysis_cycle</url>
+	</model>	
+	<!-- 择时分析  ，在涌富股票单多模块 中有
+	<model name='get_market_time_analysis'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_market_time_analysis</url>
+	</model>	
+	<model name='get_market_time_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_market_time_analysis_cycle</url>
+	</model> -->
+	<!-- FAMA模型分析 -->	
+	<model name='get_fama_analyze'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_fama_analyze</url>
+	</model>
+	<model name='get_fama_analyze_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_fama_analyze_cycle</url>
+	</model>
+	<!-- 债券组合概貌 -->
+	<model name='get_comb_characteristic'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_comb_characteristic</url>
+	</model>	
+	<model name='get_comb_characteristic_cycle'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_comb_characteristic_cycle</url>
+	</model>	
+	<!-- 现金流分析 -->
+	<model name='get_cash_flow_list'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_cash_flow_list</url>
+	</model>	
+	<model name='get_cash_flow_summary'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_cash_flow_summary</url>
+	</model>
+	<model name='get_cash_flow_detail'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_cash_flow_detail</url>
+	</model>	
+	<!-- 利率风险分析 -->
+	<model name='get_interest_rate_risk'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_interest_rate_risk</url>
+	</model>	
+	<model name='get_interest_rate_risk_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_interest_rate_risk_cycle</url>
+	</model>	
+	<!-- 关键年久期 -->
+	<model name='get_key_duration_list'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_key_duration_list</url>
+	</model>
+	<!-- 信用风险分析 -->
+	<model name='get_credit_risk_analyze'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_credit_risk_analyze</url>
+	</model>
+	<!-- 可转债分析 -->
+	<model name='get_bond_convert'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_bond_convert</url>
+	</model>	
+	<model name='get_bond_convert_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_bond_convert_cycle</url>
+	</model>
+
+	<!-- 绩效归因（BHB）-->		
+	<model name='get_performance_attribution_bhb'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_performance_attribution_bhb</url>
+	</model>	
+	<model name='get_performance_attribution_bhb_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_performance_attribution_bhb_cycle</url>
+	</model>
+	<!--  绩效归因时序（BHB）-->		
+	<model name='get_bhb_attribution_sequence'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_bhb_attribution_sequence</url>
+	</model>	
+	<model name='get_bhb_attribution_sequence_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_bhb_attribution_sequence_cycle</url>
+	</model>
+		
+	<!-- 涌富股票单多报告 -->	
+	<model name='asset_ifno'>	<!-- 资产信息 -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/asset_ifno</url>
+	</model>	
+	<model name='basic_ifno'>	<!-- 组合基本信息 -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/basic_ifno</url>
+	</model>
+	<model name='position_style'><!--  -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/position_style</url>
+	</model>
+	<model name='get_total_achieve'><!--  -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_total_achieve</url>
+	</model>	
+	<model name='get_total_achieve_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_total_achieve_cycle</url>
+	</model>	
+	<model name='get_achieve_attribute'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_achieve_attribute</url>
+	</model>
+	<model name='get_achieve_attribute_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_achieve_attribute_cycle</url>
+	</model>	
+	<model name='get_risk_var'><!-- 风险指标 -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_risk_var</url>
+	</model>
+	<model name='get_flow_risk_cash'><!-- 流动性风险分析 -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_flow_risk_cash</url>
+	</model>	
+	<model name='get_flow_risk_focus'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_flow_risk_focus</url>
+	</model>	
+	<model name='get_press_clearance_max_cash'><!-- 压力测试 -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_press_clearance_max_cash</url>
+	</model>
+	<model name='get_press_clearance_max_cash_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_press_clearance_max_cash_cycle</url>
+	</model>		
+	<model name='get_press_max_return'><!-- 最大回撤 -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_press_max_return</url>
+	</model>
+	<model name='get_press_max_return_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_press_max_return_cycle</url>
+	</model>	
+	<model name='get_attribute_analysis'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_attribute_analysis</url>
+	</model>
+	<model name='get_attribute_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_attribute_analysis_cycle</url>
+	</model>	
+	<model name='position_style_map'><!--  -->
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/position_style_map</url>
+	</model>
+	<model name='get_brinson_industry'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_brinson_industry</url>
+	</model>
+	<model name='get_brinson_industry_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_brinson_industry_cycle</url>
+	</model>		
+	<model name='get_attribution_stock'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_attribution_stock</url>
+	</model>
+	<model name='get_attribution_stock_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_attribution_stock_cycle</url>
+	</model>	
+<!-- 	<model name='get_brinson_analysis'>//已经有了
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_brinson_analysis</url>
+	</model>
+	<model name='get_brinson_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_brinson_analysis_cycle</url>
+	</model>	 -->
+ 	<model name='get_market_time_analysis'>  //择时分析，已有
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_market_time_analysis</url>
+	</model>
+	<model name='get_market_time_analysis_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/combinationperform/get_market_time_analysis_cycle</url>
+	</model>	
+	
+	
+	<!-- 涌富量化对冲报告 -->	
+	<model name='get_risk_exposure_stock_change_chart'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_risk_exposure_stock_change_chart</url>
+	</model>	
+	<model name='get_asset_allocation_analysis'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_asset_allocation_analysis</url>
+	</model>		
+	<model name='get_final_position_variety_distribution'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_final_position_variety_distribution</url>
+	</model>
+	<model name='get_interval_futures_contract_configuration'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_interval_futures_contract_configuration</url>
+	</model>	
+	<model name='get_interval_futures_variety_configuration'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_interval_futures_variety_configuration</url>
+	</model>
+	<model name='get_interval_industry_risk_exposure_timing'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_interval_industry_risk_exposure_timing</url>
+	</model>	
+	<model name='get_last_futures_variety_distribution'>	<!-- -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_last_futures_variety_distribution</url>
+	</model>	
+	<model name='get_the_fund_index_industry'>	<!-- -->	
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_the_fund_index_industry</url>
+	</model>		
+	
+	
+	<!-- 涌富固定收益报告 -->
+	<model name='get_performance_attribution'> 	<!-- 绩效归因（Campsi）绩效归因时序（Campsi） -->
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_performance_attribution</url>
+	</model>	
+	<model name='get_performance_attribution_cycle'>
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/bond/get_performance_attribution_cycle</url>
+	</model>	
+	<model name='get_bond_rating_analysis'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_bond_rating_analysis</url>
+	</model>
+	<model name='get_bond_variety_analysis'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_bond_variety_analysis</url>
+	</model>	
+	<model name='get_credit_level_distribution'>	<!-- 信用级别分布 -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_credit_level_distribution</url>
+	</model>
+	<model name='get_future_cash_flow'>	<!-- 未来现金流分析 -->	
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_future_cash_flow</url>
+	</model>	
+	<model name='get_last_hold_bond_concentration'>	<!-- -->	
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_last_hold_bond_concentration</url>
+	</model>	
+	<model name='get_interest_rate_risk_analysis'>	<!-- 利率风险分析 -->	
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_interest_rate_risk_analysis</url>
+	</model>	
+	<model name='get_interval_bond_credit_level_distribution'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_interval_bond_credit_level_distribution</url>
+	</model>	
+	<model name='get_interval_bond_variety_configuration'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_interval_bond_variety_configuration</url>
+	</model>
+	<model name='get_interval_residual_term_configuration'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_interval_residual_term_configuration</url>
+	</model>	
+	<model name='get_key_year_duration'>	<!-- 关键年久期 -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_key_year_duration</url>
+	</model>
+	<model name='get_position_analysis'>	<!-- -->	
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_position_analysis</url>
+	</model>	
+	<model name='get_subject_rating_analysis'>	<!-- -->	
+		<protocol>httpget</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/daofu_report/get_subject_rating_analysis</url>
+	</model>	
+	
+		<!-- 涌富CTA报告 -->	
+	<model name='get_rolling_income_position_timing'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_rolling_income_position_timing</url>
+	</model>
+	<model name='get_max_retracement_timing'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_max_retracement_timing</url>
+	</model>
+	<model name='get_volatility_net_exposure_seq'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_volatility_net_exposure_seq</url>
+	</model>
+	<model name='get_interval_position_dk_analysis'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_interval_position_dk_analysis</url>
+	</model>
+	<model name='get_interval_futures_contract_configuration'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_interval_futures_contract_configuration</url>
+	</model>
+	<model name='get_safety_degree'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_safety_degree</url>
+	</model>
+	<model name='get_yield_stress_test'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_yield_stress_test</url>
+	</model>
+	<model name='get_futures_concentration'>	<!--  -->	
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf.com.cn/pas-qa/api/v1/report/get_futures_concentration</url>
+	</model>
+</Config>

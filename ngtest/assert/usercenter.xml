@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<method name="favfocuslistcomp">
+		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[{"groupType":"comp","createTime"</TestCase>
+	</method>	
+	<method name="favfocuslistman">
+		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[{"groupType":"man","compFullName"</TestCase>
+	</method>	
+	<method name="favfocuslistfund">
+		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[{"groupType":"fund","compFullName"</TestCase>
+	</method>	
+	<method name="favfocusgroup_list">
+		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[</TestCase>
+	</method>	
+	<method name="favfocusgroup_checkname">
+		<TestCase name='checkok'>{"sta":1,"data":0,"msg":"可以使用"}</TestCase>
+		<TestCase name='checkfail' mode='contains'>"msg":"名称已存在"}</TestCase>	
+	</method>	
+	<method name="favfocusgroup_update">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"groupName":"comptest111","groupType":"comp","id"</TestCase>
+	</method>	
+	<method name="favfocusgroup_create">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+	</method>	
+	<method name="favfocusgroup_delete">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"groupName":"comptest</TestCase>
+	</method>	
+	<method name="favfocus_update">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+	</method>	
+	<method name="favfocus_delete">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+	</method>
+	<method name="favfocus_create">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+	</method>	
+	<method name="favmenu_list">
+		<TestCase name='test' mode='contains'>"pageNo":1,"pageSize":20,"totalPage":1},"msg":"ok"}</TestCase>
+	</method>
+	<method name="favmenu_checkname">
+		<TestCase name='checkok'>{"sta":1,"data":0,"msg":"可以使用"}</TestCase>
+		<TestCase name='checkfail' mode='contains'>"msg":"名称已存在"}</TestCase>		
+	</method>	
+	<method name="favmenu_create">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"id"</TestCase>
+	</method>	
+	<method name="favmenu_update">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+	</method>
+	<method name="favmenu_delete">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+	</method>	
+	<method name="favmenu_detail">
+		<TestCase name='test' mode='contains'>"menuName":"test","menuContent":"[{\"id\":\"3\",\"dataType\":\"200\",\"cval\":\"test\"}]"}}</TestCase>
+	</method>		
+	<method name="message_create">
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"content":"123"</TestCase>
+	</method>	
+	<method name="user_baseinfo">
+		<TestCase name='search' mode='contains'>"userName":"liangxuqing","realName":"梁旭清"</TestCase>
+	</method>	
+</TestSuite>

@@ -1,0 +1,11 @@
+#代理配置
+HttpProxy=false
+ProxyIP=127.0.0.1
+ProxyPort=8888
+#CYCLE模式的等待时间和等待次数
+TimeOut=10
+WaitTime=10
+#请求使用的字符集
+CharSet=utf-8
+#TOKEN的字段名
+Token=token_gjyfu_0001

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='test'>
+		<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+	</TestCase>
+</TestSuite>

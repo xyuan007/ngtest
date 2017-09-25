@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='page_query'>
+		<start_date>2014-03-18</start_date>	
+		<end_date>2014-03-21</end_date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<benchmark>000300</benchmark>	
+		<is_summary>false</is_summary>	
+		<dimension>SW</dimension>	
+		<date_freq>1</date_freq>	
+		<confidence>0.95</confidence>	
+		<sample_days>30</sample_days>	
+		<forecast_days>1</forecast_days>	
+		<risk_factor>1</risk_factor>
+		<forecast_method>1</forecast_method>	
+		<divide_method>1</divide_method>
+		<return_freq>1</return_freq>	
+		<var_mean>1</var_mean>	
+	</TestCase>
+	<TestCase name='page_two_query'>
+		<start_date>2014-03-18</start_date>	
+		<end_date>2014-03-21</end_date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"},{"id":120,"name":"精选2号"}]}</combination>
+		<benchmark>000016</benchmark>	
+		<is_summary>false</is_summary>	
+		<dimension>SW</dimension>	
+		<date_freq>2</date_freq>	
+		<confidence>0.99</confidence>	
+		<sample_days>20</sample_days>	
+		<forecast_days>2</forecast_days>	
+		<risk_factor>2</risk_factor>
+		<forecast_method>2</forecast_method>	
+		<divide_method>2</divide_method>
+		<return_freq>2</return_freq>	
+		<var_mean>2</var_mean>	
+	</TestCase>		
+	<TestCase name='page_sum_query'>
+		<start_date>2014-03-18</start_date>	
+		<end_date>2014-03-21</end_date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<benchmark>000300</benchmark>	
+		<is_summary>true</is_summary>	
+		<dimension>SW</dimension>	
+		<date_freq>1</date_freq>	
+		<confidence>0.95</confidence>	
+		<sample_days>30</sample_days>	
+		<forecast_days>1</forecast_days>	
+		<risk_factor>1</risk_factor>
+		<forecast_method>1</forecast_method>	
+		<divide_method>1</divide_method>
+		<return_freq>1</return_freq>	
+		<var_mean>1</var_mean>	
+	</TestCase>			
+	<TestCase name='page_no_data'>
+		<start_date>2016-03-18</start_date>	
+		<end_date>2016-03-21</end_date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<benchmark>000300</benchmark>	
+		<is_summary>false</is_summary>	
+		<dimension>SW</dimension>	
+		<date_freq>1</date_freq>	
+		<confidence>0.95</confidence>	
+		<sample_days>30</sample_days>	
+		<forecast_days>1</forecast_days>	
+		<risk_factor>1</risk_factor>
+		<forecast_method>1</forecast_method>	
+		<divide_method>1</divide_method>
+		<return_freq>1</return_freq>	
+		<var_mean>1</var_mean>	
+	</TestCase>			
+</TestSuite>

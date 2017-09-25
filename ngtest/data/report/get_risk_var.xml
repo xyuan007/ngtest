@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+			<end_date>2014-03-31</end_date>
+			<combination>{"c_id":119}</combination>
+			<benchmark>000300</benchmark>			
+	</TestCase>
+	<TestCase name='cross_holiday'>
+		<end_date>2014-02-26</end_date>
+		<combination>{"c_id":119}</combination>
+		<benchmark>000300</benchmark>			
+	</TestCase>		
+	<TestCase name='bond_query'>
+		<benchmark>000300</benchmark>	
+		<end_date>2016-12-30</end_date>
+		<combination>{"c_id":23}</combination>
+	</TestCase>		
+	<TestCase name='cta_query'>
+		<benchmark>FTHD11</benchmark>	
+		<end_date>2016-12-30</end_date>
+		<combination>{"c_id":123}</combination>
+	</TestCase>			
+</TestSuite>

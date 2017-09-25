@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='login'>
+		{"username":"liangxuqing","password":"11111111","isdev":"true"}
+	</TestCase>
+</TestSuite>

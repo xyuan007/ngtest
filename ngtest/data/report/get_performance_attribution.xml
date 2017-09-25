@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='bond_query'>
+		<start_date>2016-12-01</start_date>	
+		<end_date>2016-12-30</end_date>
+		<combination>{"c_list":[{"id":23,"name":"旭诚四期"}]}</combination>
+		<yield_curve>1232;1882</yield_curve>		
+		<is_summary>0</is_summary>		
+		<frequency>0</frequency>		
+		<bond_options>2</bond_options>		
+		<dimension>{"type":1,"data":[]}</dimension>						
+	</TestCase>		
+</TestSuite>

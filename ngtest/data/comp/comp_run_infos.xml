@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='court_notice'>
+		{compId: "99577", pageNo: 1, pageSize: 5}
+	</TestCase>
+	<TestCase name='executed'>
+		{compId: "99276", pageNo: 1, pageSize: 5}
+	</TestCase>
+	<TestCase name='hold_court_info'>
+		{compId: "99577", pageNo: 1, pageSize: 5}
+	</TestCase>
+	<TestCase name='judgement_doc'>
+		{compId: "101373", pageNo: 1, pageSize: 5}
+	</TestCase>			
+</TestSuite>

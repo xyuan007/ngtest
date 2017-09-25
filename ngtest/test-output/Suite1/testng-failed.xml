@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite1]" parallel="tests">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.Listener.TestListener"/>
+  </listeners>
+  <test name="usercenterTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_update">
+        <methods>
+          <include name="favfocusgroup_update" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_update -->
+      <class name="com.xyuan.ngtest.ps.comp.SuiteInit">
+        <methods>
+          <include name="suiteInit"/>
+          <include name="login"/>
+          <include name="suiteGC"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.ps.comp.SuiteInit -->
+    </classes>
+  </test> <!-- usercenterTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<!-- 公共的HEADER -->
+	<headers>
+		<header name='token_gjyfu_0001' type='output'>token_gjyfu_0001</header>	
+		<header name='accept'>application/json</header>	
+		<header name='Origin'>https://app.gjyf-qa.com.cn</header>	
+		<header name='Referer'>https://app.gjyf-qa.com.cn/pes2/</header>	
+		<header name='content-type'>application/json;charset=UTF-8</header>	
+	</headers>
+	<!-- 预登录 -->
+	<model name='prelogin'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/authe/prelogin</url>
+		<output name='token_gjyfu_0001'>token_gjyfu_0001</output>
+		<output name='key'>data</output>		
+	</model>	
+	<!-- 登录 -->
+	<model name='login'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/authe/login</url>
+	</model>
+	<!-- 查询整体数据-->
+	<model name='all_search'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/all/search</url>
+	</model>	
+	<!-- 菜单配置-->
+	<model name='dimenum'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/dimenum</url>
+	</model>		
+	<!-- 公司查询 -->
+	<model name='comp_search'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/search</url>
+	</model>
+	<!-- 获取企业搜索时的条件选择树 -->
+	<model name='comp_tree'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/cond/tree</url>
+	</model>
+	<!-- 基金产品基本信息  -->	
+	<model name='comp_fundinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/fundinfo</url>
+	</model>
+	<!-- 公司基本信息 -->
+	<model name='comp_baseinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/baseinfo</url>
+	</model>	
+	<!-- 公司协会信息 -->	
+	<model name='comp_assoinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/assoinfo</url>
+	</model>	
+	<!-- 公司核心团队 -->	
+	<model name='comp_corepeople'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/corepeople</url>
+	</model>	
+	<!-- 公司简介及投资策略 -->
+	<model name='comp_descinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/descinfo</url>
+	</model>			
+	<!-- 第三方：新闻信息 -->
+	<model name='comp_newsinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/newsinfo</url>
+	</model>	
+	<!-- 公司获奖信息  -->		
+	<model name='comp_prizeinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/prizeinfo</url>
+	</model>	
+	<!-- 公司调研信息 -->
+	<model name='comp_askcontext'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/askcontext</url>
+	</model>	
+	<!-- 调研内容 -->	
+	<model name='comp_askcontextdetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/preview/askcontextdetail</url>
+	</model>	
+	<!-- 公司变更信息 -->	
+	<model name='comp_buss_changehis'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/buss/changehis</url>
+	</model>	
+	<!-- 公司工商信息 -->	
+	<model name='comp_buss_bsinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/buss/bsinfo</url>
+	</model>	
+	<!-- 公司股东信息 -->	
+	<model name='comp_buss_shareholderinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/buss/shareholderinfo</url>
+	</model>		
+	<!-- 对外投资 -->	
+	<model name='comp_run_investabroad'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/investabroad</url>
+	</model>		
+	<!--  招聘信息 -->	
+	<model name='comp_run_recruitinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/recruitinfo</url>
+	</model>		
+	<!-- 法律诉讼 -->	
+	<model name='comp_run_infos'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/law/infos</url>
+	</model>		
+	<!-- 知识产权-->	
+	<model name='comp_run_intinfos'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/intinfos</url>
+	</model>		
+	<!-- 税务信息 -->	
+	<model name='comp_run_taxinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/taxinfo</url>
+	</model>	
+	<!-- 招聘信息detail -->
+	<model name='comp_run_recruitinfodetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/recruitinfodetail</url>
+	</model>
+	<!-- 知识产权-商标detail -->	
+	<model name='comp_run_trademarkdetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/trademarkdetail</url>
+	</model>	
+	<!-- 知识产权-专利detail -->	
+	<model name='comp_run_patentdetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/patentdetail</url>
+	</model>	
+	<!-- 知识产权-著作权detail -->	
+	<model name='comp_run_copyrightdetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/copyrightdetail</url>
+	</model>	
+	<!-- 知识产权-证书detail -->	
+	<model name='comp_run_cretificatedetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/cretificatedetail</url>
+	</model>	
+	<!-- 知识产权-软件著作权det-->	
+	<model name='comp_run_softcopyrightdetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/run/softcopyrightdetail</url>
+	</model>		
+
+	<!-- 企业年报列表-->	
+	<model name='comp_yearreport_years'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/yearreport/years</url>
+	</model>	
+	<!-- 企业年报基本信息 -->	
+	<model name='comp_yearreport_baseinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/yearreport/baseinfo</url>
+	</model>	
+	<!-- 发起人及出资信息 -->	
+	<model name='comp_yearreport_sponsor'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/yearreport/sponsor</url>
+	</model>	
+	<!-- 企业资产状况信息 -->	
+	<model name='comp_yearreport_investinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/yearreport/investinfo</url>
+	</model>	
+	
+	<!-- 人员基本信息-->	
+	<model name='man_baseinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/man/baseinfo/detail</url>
+	</model>		
+	<!-- 人员旗下产品 -->
+	<model name='man_fundlist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/man/funds/list</url>
+	</model>			
+	<!-- 人员对应新闻 -->	
+	<model name='man_newsinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/man/preview/newsinfo</url>
+	</model>		
+	<!-- 基金历史净值 -->	
+	<model name='fund_navdata'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/navdata/list</url>
+	</model>		
+	<!-- 基金历史 业绩 -->	
+	<model name='fund_dailyperf'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/dailyperf/detail</url>
+	</model>			
+	<!-- 基金基本信息 -->
+	<model name='fund_baseinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/baseinfo/detail</url>
+	</model>			
+	<!-- 基金详情信息 -->	
+	<model name='fund_detailinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/detailinfo</url>
+	</model>		
+	<!-- 基金重仓股信息 -->	
+	<model name='fund_highposition'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/priview/highposition</url>
+	</model>		
+	<!-- 产品要素 -->	
+	<model name='fund_factiorinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/factiorinfo/detail</url>
+	</model>		
+	<!-- 产品新闻-->		
+	<model name='fund_newsinfo'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/preview/newsinfo</url>
+	</model>	
+	
+	<!-- 人员查询 -->
+	<model name='man_search'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/man/search</url>
+	</model>
+	<!-- 获取人员搜索时的条件选择树 -->
+	<model name='man_tree'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/man/cond/tree</url>
+	</model>
+	<!-- 产品查询 -->
+	<model name='fund_search'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/search</url>
+	</model>
+	<!-- 获取产品搜索时的条件选择树 -->
+	<model name='fund_tree'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/fund/cond/tree</url>
+	</model>	
+
+	<!-- 公司关注列表 -->	
+	<model name='favfocuslistcomp'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocuslistcomp</url>
+	</model>			
+	<!-- 人员关注列表 -->
+	<model name='favfocuslistman'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocuslistman</url>
+	</model>	
+	<!-- 产品关注列表 -->
+	<model name='favfocuslistfund'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocuslistfund</url>
+	</model>	
+	<!-- 分组列表 -->
+	<model name='favfocusgroup_list'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocusgroup/list</url>
+	</model>		
+	<!-- 分组名称检查 -->	
+	<model name='favfocusgroup_checkname'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocusgroup/checkname</url>
+	</model>		
+	<!-- 分组名称更新 -->	
+	<model name='favfocusgroup_update'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocusgroup/update</url>
+	</model>				
+	<!-- 删除分组 -->
+	<model name='favfocusgroup_delete'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocusgroup/delete</url>
+	</model>		
+	<!-- 新建分组 -->
+	<model name='favfocusgroup_create'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocusgroup/create</url>
+		<output name='favfocusgroupid'>data.id</output>			
+	</model>		
+	<!-- 我的关注变更分组 -->
+	<model name='favfocus_update'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocus/update</url>
+	</model>		
+	<!-- 删除关注 -->
+	<model name='favfocus_delete'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocus/delete</url>
+	</model>			
+	<!-- 添加关注 -->
+	<model name='favfocus_create'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocus/create</url>
+		<output name='favfocusid'>data.id</output>				
+	</model>
+	
+	<!-- 筛选列表 -->
+	<model name='favmenu_list'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favmenu/list</url>
+	</model>		
+	<!-- 检查筛选条件的名称 -->
+	<model name='favmenu_checkname'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favmenu/checkname</url>
+	</model>	
+	<!-- 新增筛选条件 -->
+	<model name='favmenu_create'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favmenu/create</url>
+		<output name='favmenuid'>data.id</output>
+	</model>
+	<!-- 删除筛选条件 -->
+	<model name='favmenu_delete'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favmenu/delete</url>
+	</model>		
+	<!-- 修改筛选条件的名称 -->
+	<model name='favmenu_update'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favmenu/update</url>
+	</model>	
+	<!-- 筛选结果 -->
+	<model name='favmenu_detail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favmenu/detail</url>
+	</model>	
+	<!-- 留言板 -->
+	<model name='message_create'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/message/create</url>
+	</model>	
+	
+		<!-- 用户中心基本信息 -->	
+	<model name='user_baseinfo'>
+		<protocol>httppost</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/baseinfo</url>
+	</model>	
+
+</Config>

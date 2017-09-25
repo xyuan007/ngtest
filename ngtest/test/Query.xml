@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Query" verbose="1" parallel="tests" thread-count="2">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.jx.Listener.TestListener" />
+  </listeners>
+
+  <test name="Combination_query">
+    <classes>
+		<class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>    
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_categories_asset"/>           
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_combination_asset"/>  
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_during_break"/>    
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_stock_asset"/> 			      
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_bond_asset"/> 	
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_fund_asset"/> 	
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_combination_position"/>           
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_combination_analyze"/>           
+    </classes>
+  </test> 
+  
+  <test name="Market_risk">
+    <classes>
+		<class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>    
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_market_risk_profile"/>           
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_fluct_analysis_configs"/>           
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_affinity_analysis_configs"/>           
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_scene_analysis"/>       
+		<class name="com.xyuan.ngtest.jx.test.combinationquery.get_risk_pressure_drop"/>           
+    </classes>
+  </test> 
+
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+		<date>2014-03-31</date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<dimension>SW</dimension>		
+	</TestCase>
+	<TestCase name='cross_holiday'>
+		<date>2014-02-26</date>
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<dimension>SW</dimension>			
+	</TestCase>	
+</TestSuite>

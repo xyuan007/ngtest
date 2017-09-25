@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+			<date>2014-07-15</date>
+			<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+			<summary_combination>false</summary_combination>			
+			<dimension>SW</dimension>		
+	</TestCase>
+	<TestCase name='two_query'>
+			<date>2014-07-15</date>
+			<combination>{"c_list":[{"id":119,"name":"精选1号"},{"id":120,"name":"精选2号"}]}</combination>
+			<summary_combination>false</summary_combination>			
+			<dimension>SW</dimension>	
+	</TestCase>	
+	<TestCase name='sum_query'>
+			<date>2014-07-15</date>
+			<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+			<summary_combination>true</summary_combination>			
+			<dimension>SW</dimension>		
+	</TestCase>		
+	<TestCase name='no_data'>
+			<date>2016-07-15</date>
+			<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+			<summary_combination>true</summary_combination>			
+			<dimension>SW</dimension>			
+	</TestCase>			
+</TestSuite>

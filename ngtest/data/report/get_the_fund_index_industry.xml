@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+		<date>2014-03-31</date>
+		<combination>{"c_id":119}</combination>
+		<dimension>SW</dimension>	
+		<benchmark>000300</benchmark>			
+	</TestCase>
+	<TestCase name='cross_holiday'>
+		<date>2014-02-26</date>
+		<combination>{"c_id":119}</combination>
+		<dimension>SW</dimension>		
+		<benchmark>000300</benchmark>				
+	</TestCase>	
+</TestSuite>

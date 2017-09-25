@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+		<date>2014-06-10</date>	
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<is_summary>false</is_summary>	
+		<dimension>SW</dimension>	
+		<benchmark>000300</benchmark>	
+		<change_rate>-0.1</change_rate>	
+		<sample_days>60</sample_days>
+		<bond_choose>4</bond_choose>
+	</TestCase>
+	<TestCase name='two_query'>
+		<date>2014-06-10</date>	
+		<combination>{"c_list":[{"id":119,"name":"精选1号"},{"id":120,"name":"精选2号"}]}</combination>
+		<is_summary>false</is_summary>	
+		<dimension>SW</dimension>	
+		<benchmark>000300</benchmark>	
+		<change_rate>-0.1</change_rate>	
+		<sample_days>60</sample_days>	
+		<bond_choose>4</bond_choose>	
+	</TestCase>		
+	<TestCase name='sum_query'>
+		<date>2014-06-10</date>	
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<is_summary>true</is_summary>	
+		<dimension>SW</dimension>	
+		<benchmark>000905</benchmark>	
+		<change_rate>-0.2</change_rate>	
+		<sample_days>30</sample_days>	
+	</TestCase>	
+	<TestCase name='no_data'>
+		<date>2016-06-10</date>	
+		<combination>{"c_list":[{"id":119,"name":"精选1号"}]}</combination>
+		<is_summary>true</is_summary>	
+		<dimension>SW</dimension>	
+		<benchmark>000905</benchmark>	
+		<change_rate>-0.2</change_rate>	
+		<sample_days>30</sample_days>		
+	</TestCase>			
+</TestSuite>

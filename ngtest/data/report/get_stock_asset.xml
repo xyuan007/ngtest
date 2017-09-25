@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+		<methodname name="get_stock_asset">
+			<date>2014-07-07</date>
+			<combination>{"c_list":[{"id":12,"name":"样例2号"}]}</combination>
+			<is_summary>false</is_summary>			
+			<benchmark>000300</benchmark>
+			<dimension>SW</dimension>		
+		</methodname>	
+	</TestCase>
+	<TestCase name='nodata'>
+		<methodname name="get_stock_asset">
+			<date>2016-07-07</date>
+			<combination>{"c_list":[{"id":12,"name":"样例2号"}]}</combination>
+			<is_summary>false</is_summary>			
+			<benchmark>000300</benchmark>
+			<dimension>SW</dimension>		
+		</methodname>
+	</TestCase>	
+	<TestCase name='FirstDayQuery'>
+		<methodname name="get_stock_asset">
+			<date>2014-01-02</date>
+			<combination>{"c_list":[{"id":12,"name":"样例2号"}]}</combination>
+			<is_summary>false</is_summary>			
+			<benchmark>000300</benchmark>
+			<dimension>SW</dimension>		
+		</methodname>		</TestCase>		
+</TestSuite>

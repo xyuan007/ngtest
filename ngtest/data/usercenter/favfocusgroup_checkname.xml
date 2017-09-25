@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='checkok'>
+		<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+		<groupName>comptest111</groupName>
+		<groupType>comp</groupType>
+	</TestCase>
+	<TestCase name='checkfail'>
+		<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+		<groupName>comptest</groupName>
+		<groupType>comp</groupType>
+	</TestCase>	
+</TestSuite>

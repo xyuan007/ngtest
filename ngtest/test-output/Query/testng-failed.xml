@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Query]" parallel="tests">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.jx.Listener.TestListener"/>
+  </listeners>
+  <test name="Market_risk(failed)" parallel="tests">
+    <classes>
+      <class name="com.xyuan.ngtest.jx.test.combinationquery.get_market_risk_profile">
+        <methods>
+          <include name="get_market_risk_profile" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.jx.test.combinationquery.get_market_risk_profile -->
+      <class name="com.xyuan.ngtest.jx.test.report.SuiteInit">
+        <methods>
+          <include name="suiteInit"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="suiteGC"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.jx.test.report.SuiteInit -->
+    </classes>
+  </test> <!-- Market_risk(failed) -->
+</suite> <!-- Failed suite [Query] -->

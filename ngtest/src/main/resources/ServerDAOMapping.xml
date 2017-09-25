@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.xyuan.ngtest.DAO.ServerDAO">
+    <insert id="newRunReports">
+		insert into api_runreports(day,round,status,createtime,projectname,suitename) values(CURDATE(),#{round},"执行中",NOW(),#{projectname},#{suitename});
+    </insert>
+
+    <update id="updateRunReports">
+		update api_runreports set apitotal = #{apitotal},success = #{success},fail=#{fail},notrun=#{notrun},status="结束" 
+		where day=CURDATE() and round=#{round} and projectname=#{projectname} and status = "执行中";
+    </update>    
+    
+    <select id="getMaxRound" resultType="int">
+        select IFNULL(max(round),0) from api_runreports where day=CURDATE() and projectname=#{projectname}
+    </select>
+    
+    <insert id="newReports">
+		insert into api_detailreports(day,round,apitype,apiname,status,responsecode,message,starttime,endtime,exectime,createtime,testcasename,projectname,requesturl,requestdata,responsedata) 
+		values(CURDATE(),#{round},#{apitype},#{apiname},#{status},#{responsecode},#{message},#{starttime},#{endtime},#{exectime},NOW(),#{testcasename},#{projectname},#{requesturl},#{requestdata},#{responsedata});
+    </insert>   
+    
+    <insert id="newLog">
+		insert into api_log(day,round,projectname,logInfo,createtime) values(CURDATE(),#{round},#{projectname},#{logInfo},NOW());
+    </insert>       
+</mapper>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="1">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.Listener.TestListener" />
+  </listeners>
+
+  <test name="compTest">
+    <classes>
+		<class name="com.xyuan.ngtest.ps.comp.SuiteInit"/>    
+		<class name="com.xyuan.ngtest.ps.comp.login"/>
+		<class name="com.xyuan.ngtest.ps.comp.all_search"/>		
+		<class name="com.xyuan.ngtest.ps.comp.comp_search"/>	
+		<class name="com.xyuan.ngtest.ps.comp.comp_tree"/>		
+		<class name="com.xyuan.ngtest.ps.comp.dimenum"/>	
+		
+		<class name="com.xyuan.ngtest.ps.comp.comp_askcontext"/>	
+		<class name="com.xyuan.ngtest.ps.comp.comp_baseinfo"/>		
+		<class name="com.xyuan.ngtest.ps.comp.comp_descinfo"/>	
+		<class name="com.xyuan.ngtest.ps.comp.comp_fundinfo"/>		
+		<class name="com.xyuan.ngtest.ps.comp.comp_newsinfo"/>	
+		<class name="com.xyuan.ngtest.ps.comp.comp_prizeinfo"/>		
+
+		
+		<class name="com.xyuan.ngtest.ps.comp.comp_buss_bsinfo"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_buss_changehis"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_buss_shareholderinfo"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_run_infos"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_run_intinfos"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_run_investabroad"/>	
+		<class name="com.xyuan.ngtest.ps.comp.comp_run_recruitinfo"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_run_taxinfo"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_yearreport_baseinfo"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_yearreport_investinfo"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_yearreport_sponsor"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_yearreport_years"/>	           
+
+		<class name="com.xyuan.ngtest.ps.comp.comp_askcontextdetail"/>
+		<class name="com.xyuan.ngtest.ps.comp.comp_run_recruitinfodetail"/>		
+		
+    </classes>
+  </test>
+  
+  <test name="manfundTest">
+    <classes>  
+		<class name="com.xyuan.ngtest.ps.manfund.man_baseinfo"/>			
+		<class name="com.xyuan.ngtest.ps.manfund.man_newsinfo"/>
+		<class name="com.xyuan.ngtest.ps.manfund.man_fundlist"/>
+		<class name="com.xyuan.ngtest.ps.manfund.man_search"/>	
+		<class name="com.xyuan.ngtest.ps.manfund.man_tree"/>					
+		<class name="com.xyuan.ngtest.ps.manfund.fund_navdata"/>	
+		<class name="com.xyuan.ngtest.ps.manfund.fund_dailyperf"/>	
+		<class name="com.xyuan.ngtest.ps.manfund.fund_baseinfo"/>	
+		<class name="com.xyuan.ngtest.ps.manfund.fund_detailinfo"/>
+		<class name="com.xyuan.ngtest.ps.manfund.fund_factiorinfo"/>	
+		<class name="com.xyuan.ngtest.ps.manfund.fund_newsinfo"/>
+		<class name="com.xyuan.ngtest.ps.manfund.fund_highposition"/>	
+		<class name="com.xyuan.ngtest.ps.manfund.fund_search"/>
+		<class name="com.xyuan.ngtest.ps.manfund.fund_tree"/>
+    </classes>
+  </test>  
+  
+  <test name="usercenter_menuTest">
+    <classes> 
+		<class name="com.xyuan.ngtest.ps.usercenter.user_baseinfo"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.message_create"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favmenu_create"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favmenu_checkname"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favmenu_detail"/>	
+		<class name="com.xyuan.ngtest.ps.usercenter.favmenu_list"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favmenu_update"/>					
+		<class name="com.xyuan.ngtest.ps.usercenter.favmenu_delete"/>	
+    </classes>
+  </test>
+  
+  <test name="usercenter_favfocusgroupTest">
+    <classes> 
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_create"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_checkname"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_list"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_update"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete"/>		
+		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocuslistcomp"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocuslistfund"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocuslistman"/>	
+    </classes>
+  </test>  
+
+  <test name="usercenter_favfocusTest">
+    <classes> 
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_create"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocus_create"/>
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocus_update"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocus_delete"/>		
+		<class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete"/>				    
+    </classes>
+  </test>
+</suite>

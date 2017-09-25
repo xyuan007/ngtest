@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+			<date>2016-01-15</date>
+			<combination>{"c_list":[{"id":6,"name":"测试3号"}]}</combination>
+			<is_summary>false</is_summary>			
+			<dimension>{"type":1,"data":[]}</dimension>		
+	</TestCase>
+	<TestCase name='sum_query'>
+			<date>2016-01-15</date>
+			<combination>{"c_list":[{"id":6,"name":"测试3号"}]}</combination>
+			<is_summary>true</is_summary>			
+			<dimension>{"type":1,"data":[]}</dimension>		
+	</TestCase>		
+	<TestCase name='no_data'>
+			<date>2014-01-15</date>
+			<combination>{"c_list":[{"id":6,"name":"测试3号"}]}</combination>
+			<is_summary>false</is_summary>			
+			<dimension>{"type":1,"data":[]}</dimension>		
+	</TestCase>			
+</TestSuite>

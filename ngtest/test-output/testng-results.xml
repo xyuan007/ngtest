@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="80" passed="80">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="19879" started-at="2017-09-25T07:39:27Z" finished-at="2017-09-25T07:39:47Z">
+    <groups>
+    </groups>
+    <test name="compTest" duration-ms="9224" started-at="2017-09-25T07:39:27Z" finished-at="2017-09-25T07:39:36Z">
+      <class name="com.xyuan.ngtest.ps.comp.comp_run_recruitinfo">
+        <test-method status="PASS" signature="comp_run_recruitinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_recruitinfo@7c16905e]" name="comp_run_recruitinfo" duration-ms="242" started-at="2017-09-25T15:39:35Z" data-provider="data" finished-at="2017-09-25T15:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@617bf587 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@539493cd [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_recruitinfo.comp_run_recruitinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_recruitinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_run_recruitinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_run_recruitinfodetail">
+        <test-method status="PASS" signature="comp_run_recruitinfodetail(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_recruitinfodetail@100fc185]" name="comp_run_recruitinfodetail" duration-ms="111" started-at="2017-09-25T15:39:36Z" data-provider="data" finished-at="2017-09-25T15:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@ec93541 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3da1aa46 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_recruitinfodetail.comp_run_recruitinfodetail(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_recruitinfodetail -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_run_recruitinfodetail -->
+      <class name="com.xyuan.ngtest.ps.comp.all_search">
+        <test-method status="PASS" signature="all_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.all_search@51565ec2]" name="all_search" duration-ms="247" started-at="2017-09-25T15:39:28Z" data-provider="data" finished-at="2017-09-25T15:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@cb66fe2 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@8699215 [Attribute: name name value "allsearch"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.all_search.all_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_search -->
+        <test-method status="PASS" signature="all_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.all_search@51565ec2]" name="all_search" duration-ms="227" started-at="2017-09-25T15:39:29Z" data-provider="data" finished-at="2017-09-25T15:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@74378a19 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@798023ab [Attribute: name name value "conditionsearch"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.all_search.all_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_search -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.all_search -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_buss_bsinfo">
+        <test-method status="PASS" signature="comp_buss_bsinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_buss_bsinfo@4f933fd1]" name="comp_buss_bsinfo" duration-ms="116" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@13b55283 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@473e24f4 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_buss_bsinfo.comp_buss_bsinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_buss_bsinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_buss_bsinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_yearreport_investinfo">
+        <test-method status="PASS" signature="comp_yearreport_investinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_yearreport_investinfo@548a9f61]" name="comp_yearreport_investinfo" duration-ms="173" started-at="2017-09-25T15:39:35Z" data-provider="data" finished-at="2017-09-25T15:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@276858b7 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@4ff95010 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_yearreport_investinfo.comp_yearreport_investinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_yearreport_investinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_yearreport_investinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_run_taxinfo">
+        <test-method status="PASS" signature="comp_run_taxinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_taxinfo@2a2d45ba]" name="comp_run_taxinfo" duration-ms="143" started-at="2017-09-25T15:39:35Z" data-provider="data" finished-at="2017-09-25T15:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7996674d [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@4ed5a559 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_taxinfo.comp_run_taxinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_taxinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_run_taxinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_askcontext">
+        <test-method status="PASS" signature="comp_askcontext(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_askcontext@2a5ca609]" name="comp_askcontext" duration-ms="491" started-at="2017-09-25T15:39:31Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@644a9396 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3ad91c24 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_askcontext.comp_askcontext(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_askcontext -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_askcontext -->
+      <class name="com.xyuan.ngtest.ps.comp.dimenum">
+        <test-method status="PASS" signature="dimenum(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.dimenum@3a82f6ef]" name="dimenum" duration-ms="121" started-at="2017-09-25T15:39:31Z" data-provider="data" finished-at="2017-09-25T15:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@133a1799 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@68c25f83 [Attribute: name name value "cityenum"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.dimenum.dimenum(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dimenum -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.dimenum -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_search">
+        <test-method status="PASS" signature="comp_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_search@7dc7cbad]" name="comp_search" duration-ms="249" started-at="2017-09-25T15:39:29Z" data-provider="data" finished-at="2017-09-25T15:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@59a54204 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2cfa1d2c [Attribute: name name value "single_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_search.comp_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_search -->
+        <test-method status="PASS" signature="comp_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_search@7dc7cbad]" name="comp_search" duration-ms="258" started-at="2017-09-25T15:39:29Z" data-provider="data" finished-at="2017-09-25T15:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@589b800e [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2be9e96 [Attribute: name name value "multi_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_search.comp_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_search -->
+        <test-method status="PASS" signature="comp_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_search@7dc7cbad]" name="comp_search" duration-ms="179" started-at="2017-09-25T15:39:29Z" data-provider="data" finished-at="2017-09-25T15:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1d55b3f6 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@f444e82 [Attribute: name name value "no_result"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_search.comp_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_search -->
+        <test-method status="PASS" signature="comp_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_search@7dc7cbad]" name="comp_search" duration-ms="723" started-at="2017-09-25T15:39:30Z" data-provider="data" finished-at="2017-09-25T15:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@3bb1f3af [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@31ceed6a [Attribute: name name value "no_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_search.comp_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_search -->
+        <test-method status="PASS" signature="comp_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_search@7dc7cbad]" name="comp_search" duration-ms="272" started-at="2017-09-25T15:39:30Z" data-provider="data" finished-at="2017-09-25T15:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@198e6aa8 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@29d3b584 [Attribute: name name value "number_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_search.comp_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_search -->
+        <test-method status="PASS" signature="comp_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_search@7dc7cbad]" name="comp_search" duration-ms="237" started-at="2017-09-25T15:39:31Z" data-provider="data" finished-at="2017-09-25T15:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1dd72c6 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@559961e1 [Attribute: name name value "date_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_search.comp_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_search -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_search -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_buss_changehis">
+        <test-method status="PASS" signature="comp_buss_changehis(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_buss_changehis@6cc4c815]" name="comp_buss_changehis" duration-ms="265" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@13bc7dee [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@16cf3db9 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_buss_changehis.comp_buss_changehis(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_buss_changehis -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_buss_changehis -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_fundinfo">
+        <test-method status="PASS" signature="comp_fundinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_fundinfo@5419f379]" name="comp_fundinfo" duration-ms="121" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@64cea108 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@1541c8f6 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_fundinfo.comp_fundinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_fundinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_fundinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_buss_shareholderinfo">
+        <test-method status="PASS" signature="comp_buss_shareholderinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_buss_shareholderinfo@675d3402]" name="comp_buss_shareholderinfo" duration-ms="156" started-at="2017-09-25T15:39:33Z" data-provider="data" finished-at="2017-09-25T15:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@4ead8954 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7d83f900 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_buss_shareholderinfo.comp_buss_shareholderinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_buss_shareholderinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_buss_shareholderinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_baseinfo">
+        <test-method status="PASS" signature="comp_baseinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_baseinfo@643b1d11]" name="comp_baseinfo" duration-ms="112" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@77c4bb6d [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2a3d8812 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_baseinfo.comp_baseinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_baseinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_baseinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_yearreport_baseinfo">
+        <test-method status="PASS" signature="comp_yearreport_baseinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_yearreport_baseinfo@68be2bc2]" name="comp_yearreport_baseinfo" duration-ms="243" started-at="2017-09-25T15:39:35Z" data-provider="data" finished-at="2017-09-25T15:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@2713a985 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2166190 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_yearreport_baseinfo.comp_yearreport_baseinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_yearreport_baseinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_yearreport_baseinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_tree">
+        <test-method status="PASS" signature="comp_tree(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_tree@5f375618]" name="comp_tree" duration-ms="130" started-at="2017-09-25T15:39:31Z" data-provider="data" finished-at="2017-09-25T15:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@3a0c08ab [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@25aeff21 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_tree.comp_tree(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_tree -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_tree -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_descinfo">
+        <test-method status="PASS" signature="comp_descinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_descinfo@d2cc05a]" name="comp_descinfo" duration-ms="121" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@a7eeacf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@48614c5f [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_descinfo.comp_descinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_descinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_descinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.SuiteInit">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.xyuan.ngtest.ps.comp.SuiteInit@9629756]" name="login" is-config="true" duration-ms="1029" started-at="2017-09-25T15:39:27Z" finished-at="2017-09-25T15:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.SuiteInit -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_newsinfo">
+        <test-method status="PASS" signature="comp_newsinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_newsinfo@1753acfe]" name="comp_newsinfo" duration-ms="118" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@35fc1959 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@183a1ae5 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_newsinfo.comp_newsinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_newsinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_newsinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_askcontextdetail">
+        <test-method status="PASS" signature="comp_askcontextdetail(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_askcontextdetail@4520ebad]" name="comp_askcontextdetail" duration-ms="137" started-at="2017-09-25T15:39:36Z" data-provider="data" finished-at="2017-09-25T15:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1bf72821 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@62164dd9 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_askcontextdetail.comp_askcontextdetail(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_askcontextdetail -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_askcontextdetail -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_run_infos">
+        <test-method status="PASS" signature="comp_run_infos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_infos@2ef5e5e3]" name="comp_run_infos" duration-ms="174" started-at="2017-09-25T15:39:33Z" data-provider="data" finished-at="2017-09-25T15:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@2d4ddc95 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7cc4144b [Attribute: name name value "court_notice"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_infos.comp_run_infos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_infos -->
+        <test-method status="PASS" signature="comp_run_infos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_infos@2ef5e5e3]" name="comp_run_infos" duration-ms="139" started-at="2017-09-25T15:39:33Z" data-provider="data" finished-at="2017-09-25T15:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@79068fc4 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@30101648 [Attribute: name name value "executed"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_infos.comp_run_infos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_infos -->
+        <test-method status="PASS" signature="comp_run_infos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_infos@2ef5e5e3]" name="comp_run_infos" duration-ms="129" started-at="2017-09-25T15:39:33Z" data-provider="data" finished-at="2017-09-25T15:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@108f55af [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2128373c [Attribute: name name value "hold_court_info"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_infos.comp_run_infos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_infos -->
+        <test-method status="PASS" signature="comp_run_infos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_infos@2ef5e5e3]" name="comp_run_infos" duration-ms="167" started-at="2017-09-25T15:39:33Z" data-provider="data" finished-at="2017-09-25T15:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@6015b74f [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@25eeaee7 [Attribute: name name value "judgement_doc"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_infos.comp_run_infos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_infos -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_run_infos -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_prizeinfo">
+        <test-method status="PASS" signature="comp_prizeinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_prizeinfo@28feb3fa]" name="comp_prizeinfo" duration-ms="119" started-at="2017-09-25T15:39:32Z" data-provider="data" finished-at="2017-09-25T15:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@11948265 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6a5da3c9 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_prizeinfo.comp_prizeinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_prizeinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_prizeinfo -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_run_intinfos">
+        <test-method status="PASS" signature="comp_run_intinfos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_intinfos@735b5592]" name="comp_run_intinfos" duration-ms="154" started-at="2017-09-25T15:39:33Z" data-provider="data" finished-at="2017-09-25T15:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@12e71a9c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3d49af94 [Attribute: name name value "webiste"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_intinfos.comp_run_intinfos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_intinfos -->
+        <test-method status="PASS" signature="comp_run_intinfos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_intinfos@735b5592]" name="comp_run_intinfos" duration-ms="188" started-at="2017-09-25T15:39:34Z" data-provider="data" finished-at="2017-09-25T15:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@6e6f5175 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@1a360dca [Attribute: name name value "copyrights"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_intinfos.comp_run_intinfos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_intinfos -->
+        <test-method status="PASS" signature="comp_run_intinfos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_intinfos@735b5592]" name="comp_run_intinfos" duration-ms="185" started-at="2017-09-25T15:39:34Z" data-provider="data" finished-at="2017-09-25T15:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@38e6cd77 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@ba4f957 [Attribute: name name value "certificate"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_intinfos.comp_run_intinfos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_intinfos -->
+        <test-method status="PASS" signature="comp_run_intinfos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_intinfos@735b5592]" name="comp_run_intinfos" duration-ms="162" started-at="2017-09-25T15:39:34Z" data-provider="data" finished-at="2017-09-25T15:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1f9b6907 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@a7d585 [Attribute: name name value "patent"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_intinfos.comp_run_intinfos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_intinfos -->
+        <test-method status="PASS" signature="comp_run_intinfos(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_intinfos@735b5592]" name="comp_run_intinfos" duration-ms="161" started-at="2017-09-25T15:39:34Z" data-provider="data" finished-at="2017-09-25T15:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@6db13932 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3f3cb5dd [Attribute: name name value "softcopyright"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_intinfos.comp_run_intinfos(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_intinfos -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_run_intinfos -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_run_investabroad">
+        <test-method status="PASS" signature="comp_run_investabroad(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_run_investabroad@62ee68d8]" name="comp_run_investabroad" duration-ms="232" started-at="2017-09-25T15:39:34Z" data-provider="data" finished-at="2017-09-25T15:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@42d3aa25 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2c1752f9 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_run_investabroad.comp_run_investabroad(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_run_investabroad -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_run_investabroad -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_yearreport_sponsor">
+        <test-method status="PASS" signature="comp_yearreport_sponsor(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_yearreport_sponsor@58651fd0]" name="comp_yearreport_sponsor" duration-ms="333" started-at="2017-09-25T15:39:35Z" data-provider="data" finished-at="2017-09-25T15:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@3f0a2b71 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@f388ff8 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_yearreport_sponsor.comp_yearreport_sponsor(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_yearreport_sponsor -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_yearreport_sponsor -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_yearreport_years">
+        <test-method status="PASS" signature="comp_yearreport_years(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.comp_yearreport_years@36d4b5c]" name="comp_yearreport_years" duration-ms="204" started-at="2017-09-25T15:39:36Z" data-provider="data" finished-at="2017-09-25T15:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@e92cbdf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@4125015c [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.comp_yearreport_years.comp_yearreport_years(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comp_yearreport_years -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_yearreport_years -->
+      <class name="com.xyuan.ngtest.ps.comp.login">
+        <test-method status="PASS" signature="login(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.comp.login@20e2cbe0]" name="login" duration-ms="208" started-at="2017-09-25T15:39:28Z" data-provider="data" finished-at="2017-09-25T15:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1e6c798c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7be0a3c9 [Attribute: name name value "login"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.comp.login.login(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.login -->
+    </test> <!-- compTest -->
+    <test name="manfundTest" duration-ms="7248" started-at="2017-09-25T07:39:36Z" finished-at="2017-09-25T07:39:43Z">
+      <class name="com.xyuan.ngtest.ps.manfund.man_search">
+        <test-method status="PASS" signature="man_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_search@1bce4f0a]" name="man_search" duration-ms="499" started-at="2017-09-25T15:39:37Z" data-provider="data" finished-at="2017-09-25T15:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@c7c70e5 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@549ba00d [Attribute: name name value "no_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_search.man_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_search -->
+        <test-method status="PASS" signature="man_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_search@1bce4f0a]" name="man_search" duration-ms="159" started-at="2017-09-25T15:39:37Z" data-provider="data" finished-at="2017-09-25T15:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@3ac6e544 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@71f200e3 [Attribute: name name value "single_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_search.man_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_search -->
+        <test-method status="PASS" signature="man_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_search@1bce4f0a]" name="man_search" duration-ms="189" started-at="2017-09-25T15:39:37Z" data-provider="data" finished-at="2017-09-25T15:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7a47936c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@325da587 [Attribute: name name value "multi_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_search.man_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_search -->
+        <test-method status="PASS" signature="man_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_search@1bce4f0a]" name="man_search" duration-ms="185" started-at="2017-09-25T15:39:38Z" data-provider="data" finished-at="2017-09-25T15:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7b744926 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@11bed4cb [Attribute: name name value "no_result"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_search.man_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_search -->
+        <test-method status="PASS" signature="man_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_search@1bce4f0a]" name="man_search" duration-ms="443" started-at="2017-09-25T15:39:38Z" data-provider="data" finished-at="2017-09-25T15:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@2189e5f6 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@23f835c0 [Attribute: name name value "date_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_search.man_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_search -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.man_search -->
+      <class name="com.xyuan.ngtest.ps.manfund.man_newsinfo">
+        <test-method status="PASS" signature="man_newsinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_newsinfo@47c62251]" name="man_newsinfo" duration-ms="126" started-at="2017-09-25T15:39:36Z" data-provider="data" finished-at="2017-09-25T15:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7b40027c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6d2b9cd [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_newsinfo.man_newsinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_newsinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.man_newsinfo -->
+      <class name="com.xyuan.ngtest.ps.manfund.man_fundlist">
+        <test-method status="PASS" signature="man_fundlist(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_fundlist@ae45eb6]" name="man_fundlist" duration-ms="112" started-at="2017-09-25T15:39:37Z" data-provider="data" finished-at="2017-09-25T15:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7575ea3e [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@38c7bdfd [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_fundlist.man_fundlist(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_fundlist -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.man_fundlist -->
+      <class name="com.xyuan.ngtest.ps.manfund.man_baseinfo">
+        <test-method status="PASS" signature="man_baseinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_baseinfo@3bfdc050]" name="man_baseinfo" duration-ms="142" started-at="2017-09-25T15:39:36Z" data-provider="data" finished-at="2017-09-25T15:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@b84c7ee [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7e79d50 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_baseinfo.man_baseinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_baseinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.man_baseinfo -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_highposition">
+        <test-method status="PASS" signature="fund_highposition(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_highposition@59f99ea]" name="fund_highposition" duration-ms="152" started-at="2017-09-25T15:39:40Z" data-provider="data" finished-at="2017-09-25T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1105a49c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@477433a1 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_highposition.fund_highposition(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_highposition -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_highposition -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_baseinfo">
+        <test-method status="PASS" signature="fund_dailyperf(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_baseinfo@6f7fd0e6]" name="fund_dailyperf" duration-ms="153" started-at="2017-09-25T15:39:40Z" data-provider="data" finished-at="2017-09-25T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@14fa904e [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7da36bf [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_baseinfo.fund_dailyperf(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_dailyperf -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_baseinfo -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_newsinfo">
+        <test-method status="PASS" signature="fund_newsinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_newsinfo@5e3a8624]" name="fund_newsinfo" duration-ms="118" started-at="2017-09-25T15:39:40Z" data-provider="data" finished-at="2017-09-25T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1a2f65b7 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3ae014fd [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_newsinfo.fund_newsinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_newsinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_newsinfo -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_navdata">
+        <test-method status="PASS" signature="fund_navdata(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_navdata@27efef64]" name="fund_navdata" duration-ms="966" started-at="2017-09-25T15:39:38Z" data-provider="data" finished-at="2017-09-25T15:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@66a051f8 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@10fa08eb [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_navdata.fund_navdata(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_navdata -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_navdata -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_search">
+        <test-method status="PASS" signature="fund_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_search@3e6fa38a]" name="fund_search" duration-ms="2017" started-at="2017-09-25T15:39:40Z" data-provider="data" finished-at="2017-09-25T15:39:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@681994f3 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@107e341a [Attribute: name name value "no_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_search.fund_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_search -->
+        <test-method status="PASS" signature="fund_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_search@3e6fa38a]" name="fund_search" duration-ms="298" started-at="2017-09-25T15:39:42Z" data-provider="data" finished-at="2017-09-25T15:39:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@506d4443 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@1a7e5b72 [Attribute: name name value "single_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_search.fund_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_search -->
+        <test-method status="PASS" signature="fund_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_search@3e6fa38a]" name="fund_search" duration-ms="362" started-at="2017-09-25T15:39:43Z" data-provider="data" finished-at="2017-09-25T15:39:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@a6392bc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@650ddf50 [Attribute: name name value "multi_conds"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_search.fund_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_search -->
+        <test-method status="PASS" signature="fund_search(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_search@3e6fa38a]" name="fund_search" duration-ms="359" started-at="2017-09-25T15:39:43Z" data-provider="data" finished-at="2017-09-25T15:39:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@39394a57 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7d3207b2 [Attribute: name name value "no_result"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_search.fund_search(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_search -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_search -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_tree">
+        <test-method status="PASS" signature="fund_tree(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_tree@5c3bd550]" name="fund_tree" duration-ms="130" started-at="2017-09-25T15:39:43Z" data-provider="data" finished-at="2017-09-25T15:39:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@18aa82dd [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@229d605c [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_tree.fund_tree(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_tree -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_tree -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_detailinfo">
+        <test-method status="PASS" signature="fund_detailinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_detailinfo@42d80b78]" name="fund_detailinfo" duration-ms="127" started-at="2017-09-25T15:39:40Z" data-provider="data" finished-at="2017-09-25T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@6433dbf2 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3c889778 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_detailinfo.fund_detailinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_detailinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_detailinfo -->
+      <class name="com.xyuan.ngtest.ps.manfund.man_tree">
+        <test-method status="PASS" signature="man_tree(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.man_tree@1e88b3c]" name="man_tree" duration-ms="119" started-at="2017-09-25T15:39:38Z" data-provider="data" finished-at="2017-09-25T15:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7428e293 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@52fc717a [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.man_tree.man_tree(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- man_tree -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.man_tree -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_dailyperf">
+        <test-method status="PASS" signature="fund_dailyperf(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_dailyperf@66a3ffec]" name="fund_dailyperf" duration-ms="171" started-at="2017-09-25T15:39:39Z" data-provider="data" finished-at="2017-09-25T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@67869482 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@497e18b5 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_dailyperf.fund_dailyperf(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_dailyperf -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_dailyperf -->
+      <class name="com.xyuan.ngtest.ps.manfund.fund_factiorinfo">
+        <test-method status="PASS" signature="fund_factiorinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.manfund.fund_factiorinfo@77caeb3e]" name="fund_factiorinfo" duration-ms="126" started-at="2017-09-25T15:39:40Z" data-provider="data" finished-at="2017-09-25T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@5603dcc5 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@32828d88 [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.manfund.fund_factiorinfo.fund_factiorinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund_factiorinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.manfund.fund_factiorinfo -->
+    </test> <!-- manfundTest -->
+    <test name="usercenterTest" duration-ms="2432" started-at="2017-09-25T07:39:44Z" finished-at="2017-09-25T07:39:46Z">
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocuslistfund">
+        <test-method status="PASS" signature="favfocuslistfund(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocuslistfund@3abbfa04]" name="favfocuslistfund" duration-ms="134" started-at="2017-09-25T15:39:46Z" data-provider="data" finished-at="2017-09-25T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1fbd4f3d [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@1ba13d4f [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocuslistfund.favfocuslistfund(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocuslistfund -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocuslistfund -->
+      <class name="com.xyuan.ngtest.ps.usercenter.message_create">
+        <test-method status="PASS" signature="test(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.message_create@6eebc39e]" name="test" duration-ms="149" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@559a5982 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@82f88d [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.message_create.test(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.message_create -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favmenu_list">
+        <test-method status="PASS" signature="favmenu_list(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_list@31ef45e3]" name="favmenu_list" duration-ms="144" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@727adbbe [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7cc34ef1 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_list.favmenu_list(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favmenu_list -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favmenu_list -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favmenu_delete">
+        <test-method status="PASS" signature="favmenu_delete(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_delete@f6c48ac]" name="favmenu_delete" duration-ms="197" started-at="2017-09-25T15:39:45Z" data-provider="data" finished-at="2017-09-25T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@6391771b [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3a393638 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_delete.favmenu_delete(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favmenu_delete -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favmenu_delete -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_update">
+        <test-method status="PASS" signature="favfocusgroup_update(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocusgroup_update@57fffcd7]" name="favfocusgroup_update" duration-ms="133" started-at="2017-09-25T15:39:45Z" data-provider="data" finished-at="2017-09-25T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@10bb59d1 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@1ac1f303 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocusgroup_update.favfocusgroup_update(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocusgroup_update -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_update -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favmenu_update">
+        <test-method status="PASS" signature="favmenu_update(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_update@146ba0ac]" name="favmenu_update" duration-ms="168" started-at="2017-09-25T15:39:45Z" data-provider="data" finished-at="2017-09-25T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@297bafe0 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2992c00b [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_update.favmenu_update(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favmenu_update -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favmenu_update -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocuslistman">
+        <test-method status="PASS" signature="favfocuslistman(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocuslistman@598067a5]" name="favfocuslistman" duration-ms="111" started-at="2017-09-25T15:39:46Z" data-provider="data" finished-at="2017-09-25T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@48e99323 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@60fab416 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocuslistman.favfocuslistman(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocuslistman -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocuslistman -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favmenu_checkname">
+        <test-method status="PASS" signature="favmenu_checkname(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_checkname@e25b2fe]" name="favmenu_checkname" duration-ms="125" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@1bf6f688 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@106dc92e [Attribute: name name value "checkok"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_checkname.favmenu_checkname(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favmenu_checkname -->
+        <test-method status="PASS" signature="favmenu_checkname(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_checkname@e25b2fe]" name="favmenu_checkname" duration-ms="112" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@5e4d7f28 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@263050d [Attribute: name name value "checkfail"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_checkname.favmenu_checkname(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favmenu_checkname -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favmenu_checkname -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete">
+        <test-method status="PASS" signature="favfocusgroup_delete(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete@14bf9759]" name="favfocusgroup_delete" duration-ms="174" started-at="2017-09-25T15:39:45Z" data-provider="data" finished-at="2017-09-25T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@60bb25d6 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7b3d2d60 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete.favfocusgroup_delete(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocusgroup_delete -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favmenu_create">
+        <test-method status="PASS" signature="favmenu_create(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_create@3c0ecd4b]" name="favmenu_create" duration-ms="210" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@2b776792 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3d8c9b26 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_create.favmenu_create(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favmenu_create -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favmenu_create -->
+      <class name="com.xyuan.ngtest.ps.usercenter.user_baseinfo">
+        <test-method status="PASS" signature="user_baseinfo(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.user_baseinfo@464bee09]" name="user_baseinfo" duration-ms="115" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@394cfd25 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6ff6aa2a [Attribute: name name value "search"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.user_baseinfo.user_baseinfo(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_baseinfo -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.user_baseinfo -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_create">
+        <test-method status="PASS" signature="favfocusgroup_create(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocusgroup_create@4dfa3a9d]" name="favfocusgroup_create" duration-ms="126" started-at="2017-09-25T15:39:45Z" data-provider="data" finished-at="2017-09-25T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@31c04b0e [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@517a0296 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocusgroup_create.favfocusgroup_create(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocusgroup_create -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_create -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocuslistcomp">
+        <test-method status="PASS" signature="favfocuslistcomp(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocuslistcomp@239963d8]" name="favfocuslistcomp" duration-ms="130" started-at="2017-09-25T15:39:46Z" data-provider="data" finished-at="2017-09-25T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@49a70bef [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@a7aa9d [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocuslistcomp.favfocuslistcomp(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocuslistcomp -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocuslistcomp -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_list">
+        <test-method status="PASS" signature="favfocusgroup_list(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocusgroup_list@13deb50e]" name="favfocusgroup_list" duration-ms="104" started-at="2017-09-25T15:39:45Z" data-provider="data" finished-at="2017-09-25T15:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@185a011f [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7ed8e072 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocusgroup_list.favfocusgroup_list(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocusgroup_list -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_list -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favmenu_detail">
+        <test-method status="PASS" signature="test(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favmenu_detail@754ba872]" name="test" duration-ms="126" started-at="2017-09-25T15:39:44Z" data-provider="data" finished-at="2017-09-25T15:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@d8e7e48 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@706ab56b [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favmenu_detail.test(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favmenu_detail -->
+    </test> <!-- usercenterTest -->
+    <test name="usercenter_favfocusTest" duration-ms="928" started-at="2017-09-25T07:39:46Z" finished-at="2017-09-25T07:39:47Z">
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocus_create">
+        <test-method status="PASS" signature="favfocus_create(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocus_create@2f686d1f]" name="favfocus_create" duration-ms="168" started-at="2017-09-25T15:39:46Z" data-provider="data" finished-at="2017-09-25T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@130b89b1 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6d8e54d5 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocus_create.favfocus_create(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocus_create -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocus_create -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete">
+        <test-method status="PASS" signature="favfocusgroup_delete(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete@7085bdee]" name="favfocusgroup_delete" duration-ms="159" started-at="2017-09-25T15:39:47Z" data-provider="data" finished-at="2017-09-25T15:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@373213da [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@4d2cc0a [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete.favfocusgroup_delete(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocusgroup_delete -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_delete -->
+      <class name="com.xyuan.ngtest.ps.comp.SuiteInit">
+        <test-method status="PASS" signature="suiteInit()[pri:0, instance:com.xyuan.ngtest.ps.comp.SuiteInit@9629756]" name="suiteInit" is-config="true" duration-ms="577" started-at="2017-09-25T15:39:26Z" finished-at="2017-09-25T15:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInit -->
+        <test-method status="PASS" signature="suiteGC()[pri:0, instance:com.xyuan.ngtest.ps.comp.SuiteInit@9629756]" name="suiteGC" is-config="true" duration-ms="7" started-at="2017-09-25T15:39:47Z" finished-at="2017-09-25T15:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteGC -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.SuiteInit -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocus_delete">
+        <test-method status="PASS" signature="favfocus_delete(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocus_delete@73ad2d6]" name="favfocus_delete" duration-ms="158" started-at="2017-09-25T15:39:47Z" data-provider="data" finished-at="2017-09-25T15:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@17ff080 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@4641a325 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocus_delete.favfocus_delete(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocus_delete -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocus_delete -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_create">
+        <test-method status="PASS" signature="favfocusgroup_create(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocusgroup_create@4cf777e8]" name="favfocusgroup_create" duration-ms="196" started-at="2017-09-25T15:39:46Z" data-provider="data" finished-at="2017-09-25T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@7c458b [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@76d71274 [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocusgroup_create.favfocusgroup_create(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocusgroup_create -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_create -->
+      <class name="com.xyuan.ngtest.ps.usercenter.favfocus_update">
+        <test-method status="PASS" signature="favfocus_update(org.dom4j.Element, java.lang.reflect.Method)[pri:0, instance:com.xyuan.ngtest.ps.usercenter.favfocus_update@3fee9989]" name="favfocus_update" duration-ms="179" started-at="2017-09-25T15:39:46Z" data-provider="data" finished-at="2017-09-25T15:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.dom4j.tree.DefaultElement@61dd95ba [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@44c4712e [Attribute: name name value "test"]]/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.xyuan.ngtest.ps.usercenter.favfocus_update.favfocus_update(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favfocus_update -->
+      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocus_update -->
+    </test> <!-- usercenter_favfocusTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

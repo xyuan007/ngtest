@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='query'>
+		<date>2014-02-18</date>
+		<combination>{"c_list":[{"id":11,"name":"样例1号"}]}</combination>
+		<is_summary>false</is_summary>			
+		<bond_options>3</bond_options>
+		<yield>1</yield>				
+		<token func="com.test.xyuan.httpTest.Util.FuncUtil" param="token">getOutputValue</token>
+	</TestCase>
+</TestSuite>

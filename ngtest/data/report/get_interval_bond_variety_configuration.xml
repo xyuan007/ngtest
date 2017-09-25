@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='bond_query'>
+		<start_date>2016-12-01</start_date>	
+		<end_date>2016-12-30</end_date>
+		<combination>{"c_id":23}</combination>
+		<dimension>{"type":1,"data":[]}</dimension>		
+	</TestCase>		
+</TestSuite>

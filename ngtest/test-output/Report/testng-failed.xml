@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Report]" parallel="tests">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.jx.Listener.TestListener"/>
+  </listeners>
+  <test name="Public_report(failed)" parallel="tests">
+    <classes>
+      <class name="com.xyuan.ngtest.jx.test.report.SuiteInit">
+        <methods>
+          <include name="suiteInit"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="suiteGC"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.jx.test.report.SuiteInit -->
+      <class name="com.xyuan.ngtest.jx.test.report.get_fama_analyze">
+        <methods>
+          <include name="get_fama_analyze" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.jx.test.report.get_fama_analyze -->
+    </classes>
+  </test> <!-- Public_report(failed) -->
+</suite> <!-- Failed suite [Report] -->

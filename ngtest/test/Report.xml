@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Report" verbose="1" parallel="tests" thread-count="2">
+  <listeners>
+    <listener class-name="com.xyuan.ngtest.jx.Listener.TestListener" />
+  </listeners>
+
+  <test name="Public_report">
+    <classes>
+       <class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>     
+       <class name="com.xyuan.ngtest.jx.test.report.asset_ifno"/>       
+       <class name="com.xyuan.ngtest.jx.test.report.basic_ifno"/>
+       <class name="com.xyuan.ngtest.jx.test.report.get_risk_var"/> 
+       <class name="com.xyuan.ngtest.jx.test.report.get_total_achieve"/> 
+       <class name="com.xyuan.ngtest.jx.test.report.get_brinson_analysis"/>       
+       <class name="com.xyuan.ngtest.jx.test.report.get_fama_analyze"/>    
+       <class name="com.xyuan.ngtest.jx.test.report.get_market_time_analysis"/>   
+    </classes>
+  </test>
+
+
+  <test name="Stock_Report">
+    <classes>
+       <class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>    
+       <class name="com.xyuan.ngtest.jx.test.report.position_style"/>   
+       <class name="com.xyuan.ngtest.jx.test.report.get_flow_risk_cash"/>  
+       <class name="com.xyuan.ngtest.jx.test.report.get_flow_risk_focus"/>  
+       <class name="com.xyuan.ngtest.jx.test.report.get_achieve_attribute"/>  
+       <class name="com.xyuan.ngtest.jx.test.report.get_press_clearance_max_cash"/>  
+       <class name="com.xyuan.ngtest.jx.test.report.get_press_max_return"/>      
+       <class name="com.xyuan.ngtest.jx.test.report.get_attribute_analysis"/>    
+       <class name="com.xyuan.ngtest.jx.test.report.position_style_map"/>      
+       <class name="com.xyuan.ngtest.jx.test.report.get_brinson_industry"/>     
+       <class name="com.xyuan.ngtest.jx.test.report.get_attribution_stock"/>  	
+    </classes>
+  </test>
+
+  <test name="Quant_Report">
+    <classes>
+       <class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>     
+       <class name="com.xyuan.ngtest.jx.test.report.get_risk_exposure_stock_change_chart"/>    
+       <class name="com.xyuan.ngtest.jx.test.report.get_asset_allocation_analysis"/>      
+       <class name="com.xyuan.ngtest.jx.test.report.get_final_position_variety_distribution"/>     
+       <class name="com.xyuan.ngtest.jx.test.report.get_the_fund_index_industry"/>  	
+       <class name="com.xyuan.ngtest.jx.test.report.get_interval_industry_risk_exposure_timing"/>       
+       <class name="com.xyuan.ngtest.jx.test.report.get_last_futures_variety_distribution"/>    
+       <class name="com.xyuan.ngtest.jx.test.report.get_interval_futures_variety_configuration"/>         
+       <class name="com.xyuan.ngtest.jx.test.report.get_interval_futures_contract_configuration"/>    
+    </classes>
+  </test>     
+        
+  <test name="Bond_Report">
+    <classes>
+		<class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>     
+		<class name="com.xyuan.ngtest.jx.test.report.get_performance_attribution"/>
+		<class name="com.xyuan.ngtest.jx.test.report.get_future_cash_flow"/>   
+		<class name="com.xyuan.ngtest.jx.test.report.get_last_hold_bond_concentration"/>    
+        <class name="com.xyuan.ngtest.jx.test.report.get_interest_rate_risk_analysis"/> 
+        <class name="com.xyuan.ngtest.jx.test.report.get_subject_rating_analysis"/>    
+        <class name="com.xyuan.ngtest.jx.test.report.get_position_analysis"/>   
+        <class name="com.xyuan.ngtest.jx.test.report.get_bond_variety_analysis"/>    
+        <class name="com.xyuan.ngtest.jx.test.report.get_interval_bond_variety_configuration"/>   
+        <class name="com.xyuan.ngtest.jx.test.report.get_interval_residual_term_configuration"/>    
+        <class name="com.xyuan.ngtest.jx.test.report.get_credit_level_distribution"/>   
+        <class name="com.xyuan.ngtest.jx.test.report.get_interval_bond_credit_level_distribution"/>    
+        <class name="com.xyuan.ngtest.jx.test.report.get_key_year_duration"/> 
+        <class name="com.xyuan.ngtest.jx.test.report.get_bond_rating_analysis"/>   
+    </classes>
+  </test> 
+   
+  <test name="CTA_Report">
+    <classes>
+       	<class name="com.xyuan.ngtest.jx.test.report.SuiteInit"/>     
+       	<class name="com.xyuan.ngtest.jx.test.report.get_rolling_income_position_timing"/>   
+       	<class name="com.xyuan.ngtest.jx.test.report.get_last_hold_bond_concentration"/>    
+       	<class name="com.xyuan.ngtest.jx.test.report.get_interest_rate_risk_analysis"/> 
+       	<class name="com.xyuan.ngtest.jx.test.report.get_subject_rating_analysis"/>    
+       	<class name="com.xyuan.ngtest.jx.test.report.get_position_analysis"/>   
+       	<class name="com.xyuan.ngtest.jx.test.report.get_bond_variety_analysis"/>    
+       	<class name="com.xyuan.ngtest.jx.test.report.get_interval_bond_variety_configuration"/>   
+       	<class name="com.xyuan.ngtest.jx.test.report.get_interval_residual_term_configuration"/>    
+       	<class name="com.xyuan.ngtest.jx.test.report.get_credit_level_distribution"/>   
+       	<class name="com.xyuan.ngtest.jx.test.report.get_interval_bond_credit_level_distribution"/>    
+       	<class name="com.xyuan.ngtest.jx.test.report.get_key_year_duration"/> 
+       	<class name="com.xyuan.ngtest.jx.test.report.get_bond_rating_analysis"/>   
+    </classes>
+  </test>   
+
+</suite>
