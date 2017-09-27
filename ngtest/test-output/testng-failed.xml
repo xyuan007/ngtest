@@ -4,13 +4,8 @@
   <listeners>
     <listener class-name="com.xyuan.ngtest.Listener.TestListener"/>
   </listeners>
-  <test name="usercenterTest(failed)" parallel="tests">
+  <test name="test(failed)" parallel="tests">
     <classes>
-      <class name="com.xyuan.ngtest.ps.usercenter.favfocusgroup_update">
-        <methods>
-          <include name="favfocusgroup_update" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.xyuan.ngtest.ps.usercenter.favfocusgroup_update -->
       <class name="com.xyuan.ngtest.ps.comp.SuiteInit">
         <methods>
           <include name="suiteInit"/>
@@ -18,6 +13,11 @@
           <include name="suiteGC"/>
         </methods>
       </class> <!-- com.xyuan.ngtest.ps.comp.SuiteInit -->
+      <class name="com.xyuan.ngtest.ps.comp.comp_search">
+        <methods>
+          <include name="comp_search" invocation-numbers="0 1 3 5"/>
+        </methods>
+      </class> <!-- com.xyuan.ngtest.ps.comp.comp_search -->
     </classes>
-  </test> <!-- usercenterTest(failed) -->
+  </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

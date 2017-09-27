@@ -58,9 +58,7 @@ public class DatabaseHelper {
 	public static synchronized void newReports(int round,String apitype,String apiname,String message,Timestamp starttime,
 			Timestamp endtime,String exectime,String responsecode,String status,String testcasename,
 			String projectname,String requesturl,String requestdata,String responsedata){
-		serverDao.newReports(round, apitype, apiname, message, starttime, endtime, 
-				exectime, responsecode, status,testcasename,projectname,
-				requesturl,requestdata,responsedata);
+		serverDao.newReports(round, apitype, apiname, message, starttime, endtime, exectime, responsecode, status,testcasename,projectname,requesturl,requestdata,responsedata);
 		session.commit();
 	}
 	
