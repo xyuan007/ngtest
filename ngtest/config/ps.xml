@@ -349,5 +349,117 @@
 		<protocol>httppost</protocol>
 		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/baseinfo</url>
 	</model>	
-
+	
+		<!-- 跟踪企业名单-->	
+	<model name='usertrack_list'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usertrack/list</url>
+	</model>	
+		<!-- 跟踪企业名单ADD-->	
+	<model name='usertrack_create'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usertrack/create</url>
+	</model>	
+		<!-- 跟踪企业名单DELETE-->	
+	<model name='usertrack_delete'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usertrack/delete</url>
+	</model>				
+		<!-- 跟踪企业名单EDIT-->	
+	<model name='usertrack_edit'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usertrack/trackstateedit</url>
+	</model>	
+	
+	<!-- 负面人名查询列表listApi-->	
+	<model name='negativeinfo_manlist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/negativeinfo/manlist</url>
+	</model>	
+	<!-- 负面人名查询详情detailApi-->
+	<model name='negativeinfo_mandetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/negativeinfo/mandetail</url>
+	</model>	
+	<!-- 负面企业查询列表listApi-->		
+	<model name='negativeinfo_complist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/negativeinfo/complist</url>
+	</model>
+	<!-- 负面信息汇总统计listApi-->	
+	<model name='negativeinfo_allstatis'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/negativeinfo/allstatis</url>
+	</model>
+	<!-- 公司负面_汇总统计Api-->		
+	<model name='negativeinfo_stais'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/negativeinfo/statis</url>
+	</model>
+	
+	<!-- 基协异常_信息list-->
+	<model name='compassociationinfolllist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/compassociationinfolllist</url>
+	</model>
+	<!-- 工商异常_经营异常listApi-->
+	<model name='abnormaloperate'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/abnormaloperate</url>
+	</model>
+	<!-- 工商异常_行政处罚listApi-->
+	<model name='adminsanction'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/adminsanction</url>
+	</model>
+	<!-- 法律诉讼_失信被执行人detail-->				
+	<model name='lawexecdetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/lawexecdetail</url>
+	</model>			
+	<!-- 法律诉讼_失信被执行人list-->
+	<model name='lawexecutedlist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/lawexecutedlist</url>
+	</model>
+	<!-- 法律诉讼_开庭公告detail-->
+	<model name='lawholdcourtinfodetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/lawholdcourtinfodetail</url>
+	</model>
+	<!-- 法律诉讼_开庭公告list-->
+	<model name='lawholdcourtinfolist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/lawholdcourtinfolist</url>
+	</model>
+	<!-- 法律诉讼_法院公告list-->	
+	<model name='lawcourtnoticelist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/lawcourtnoticelist</url>
+	</model>
+	<!-- 法律诉讼_裁判文书list-->
+	<model name='lawjudgementdoclist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/lawjudgementdoclist</url>
+	</model>
+	<!-- 证监会处罚_市场禁入人detail-->
+	<model name='manadministrativesanctiondetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/manadministrativesanctiondetail</url>
+	</model>
+	<!-- 证监会处罚_市场禁入人list-->				
+	<model name='manadministrativesanctionlist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/manadministrativesanctionlist</url>
+	</model>		
+	<!-- 证监会处罚_行政处罚公司detail-->
+	<model name='repadministrativesanctiondetail'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/repadministrativesanctiondetail</url>
+	</model>
+	<!-- 证监会处罚_行政处罚公司list-->
+	<model name='repadministrativesanctionlist'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/repadministrativesanctionlist</url>
+	</model>
 </Config>

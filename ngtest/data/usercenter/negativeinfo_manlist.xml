@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='test'>
+		{trackValue: "丁勇", pageNo: "1", pageSize: "100"}
+	</TestCase>
+</TestSuite>

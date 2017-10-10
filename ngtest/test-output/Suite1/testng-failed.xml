@@ -13,11 +13,11 @@
           <include name="suiteGC"/>
         </methods>
       </class> <!-- com.xyuan.ngtest.ps.comp.SuiteInit -->
-      <class name="com.xyuan.ngtest.ps.comp.comp_search">
+      <class name="com.xyuan.ngtest.ps.comp.adminsanction">
         <methods>
-          <include name="comp_search" invocation-numbers="0 1 3 5"/>
+          <include name="test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.xyuan.ngtest.ps.comp.comp_search -->
+      </class> <!-- com.xyuan.ngtest.ps.comp.adminsanction -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

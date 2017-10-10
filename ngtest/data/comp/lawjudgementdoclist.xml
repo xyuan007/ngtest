@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='test'>
+		{compId: "101373",pageNo:"1",pageSize:"20"}
+	</TestCase>
+</TestSuite>

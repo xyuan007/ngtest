@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestCase name='comp'>
+		{trackValue: "上海一村投资管理有限公司", pageNo: "1", pageSize: "100"}
+	</TestCase>
+</TestSuite>

@@ -23,7 +23,7 @@
 		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>	
 	<method name="favfocusgroup_delete">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"groupName":"comptest</TestCase>
+		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"groupName":"comptest111","groupType":"comp","id"</TestCase>
 	</method>	
 	<method name="favfocus_update">
 		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
@@ -59,4 +59,32 @@
 	<method name="user_baseinfo">
 		<TestCase name='search' mode='contains'>"userName":"liangxuqing","realName":"梁旭清"</TestCase>
 	</method>	
+	<method name="usertrack_create">
+		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="usertrack_list">
+		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="usertrack_edit">
+		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="usertrack_delete">
+		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="negativeinfo_manlist">
+		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="negativeinfo_mandetail">
+		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="negativeinfo_allstatis">
+		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="negativeinfo_complist">
+		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+	</method>	
+
+	
+	
+	
 </TestSuite>
