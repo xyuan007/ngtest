@@ -176,6 +176,11 @@
 		<protocol>httppostjson</protocol>
 		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/yearreport/investinfo</url>
 	</model>	
+	<!-- 股权变更 -->	
+	<model name='comp_yearreport_stockchanges'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/comp/yearreport/stockchanges</url>
+	</model>		
 	
 	<!-- 人员基本信息-->	
 	<model name='man_baseinfo'>
@@ -359,6 +364,7 @@
 	<model name='usertrack_create'>
 		<protocol>httppostjson</protocol>
 		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usertrack/create</url>
+		<output name='usertrackid'>data.id</output>			
 	</model>	
 		<!-- 跟踪企业名单DELETE-->	
 	<model name='usertrack_delete'>
@@ -462,4 +468,74 @@
 		<protocol>httppostjson</protocol>
 		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/egativeinfo/repadministrativesanctionlist</url>
 	</model>
+	
+	<!-- 用户列表list-->
+	<model name='userinfo_list'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/userinfo/search</url>
+	</model>
+	<!-- 用户新增add-->
+	<model name='userinfo_add'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/userinfo/add</url>
+	</model>	
+	<!-- 用户修改update-->	
+	<model name='userinfo_update'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/userinfo/update</url>
+	</model>	
+	<!-- 用户删除delete-->
+	<model name='userinfo_delete'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/userinfo/delete</url>
+	</model>	
+	<!-- 用户密码重置resetpwd-->
+	<model name='userinfo_resetpwd'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/userinfo/resetpwd</url>
+	</model>	
+	<!-- 分组列表list-->
+	<model name='usergroup_list'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usergroup/list</url>
+	</model>
+	<!-- 分组新增add-->
+	<model name='usergroup_add'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usergroup/add</url>
+		<output name='usergroupid'>data.groupId</output>			
+	</model>
+	<!-- 分组删除delete-->
+	<model name='usergroup_delete'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usergroup/delete</url>
+	</model>
+	<!-- 分组名checkname-->
+	<model name='usergroup_checkname'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/ent/usergroup/checkname</url>
+	</model>	
+	
+	<!-- 是否已关注-->
+	<model name='favfocusflag'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/favfocusflag</url>
+	</model>		
+	<!-- 检查手机号是否已存在-->
+	<model name='auth_checks'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/authe/checks</url>
+	</model>	
+	<!-- 发送SMS-->	
+	<model name='auth_smssend'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/authe/smssend</url>
+		<output name='vcode' type='regex'>\d{6}</output>		
+	</model>	
+	<!-- 绑定手机-->	
+	<model name='bindmobile'>
+		<protocol>httppostjson</protocol>
+		<url>https://app.gjyf-qa.com.cn/bdpes2api/user/bindmobile</url>
+	</model>
+	
 </Config>

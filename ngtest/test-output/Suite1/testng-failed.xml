@@ -4,20 +4,20 @@
   <listeners>
     <listener class-name="com.xyuan.ngtest.Listener.TestListener"/>
   </listeners>
-  <test name="test(failed)" parallel="tests">
+  <test name="compTest(failed)" parallel="tests">
     <classes>
-      <class name="com.xyuan.ngtest.ps.comp.SuiteInit">
+      <class name="com.xyuan.ngtest.ps.test.SuiteInit">
         <methods>
           <include name="suiteInit"/>
           <include name="login"/>
           <include name="suiteGC"/>
         </methods>
-      </class> <!-- com.xyuan.ngtest.ps.comp.SuiteInit -->
-      <class name="com.xyuan.ngtest.ps.comp.adminsanction">
+      </class> <!-- com.xyuan.ngtest.ps.test.SuiteInit -->
+      <class name="com.xyuan.ngtest.ps.test.usercenterFlow">
         <methods>
-          <include name="test" invocation-numbers="0"/>
+          <include name="favfocusgroupTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.xyuan.ngtest.ps.comp.adminsanction -->
+      </class> <!-- com.xyuan.ngtest.ps.test.usercenterFlow -->
     </classes>
-  </test> <!-- test(failed) -->
+  </test> <!-- compTest(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

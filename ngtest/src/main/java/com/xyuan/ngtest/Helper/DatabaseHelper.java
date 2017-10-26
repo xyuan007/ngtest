@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.io.Reader;
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -45,6 +46,14 @@ public class DatabaseHelper {
 		return res;
 	}
 	
+	public static synchronized List<String> getRunedTestCase(int round,String apiname){
+		List<String> res = serverDao.getRunedTestCase(round, apiname);
+		session.commit();
+		reSession();
+		return res;
+	}
+	
+	
 	public  static synchronized void updateRunReports(int round,int apitotal,int success,int fail,int notrun,String projectname){
 		serverDao.updateRunReports(round, apitotal, success, fail, notrun,projectname);
 		session.commit();
@@ -55,10 +64,10 @@ public class DatabaseHelper {
 		session.commit();
 	}
 	
-	public static synchronized void newReports(int round,String apitype,String apiname,String message,Timestamp starttime,
+	public static synchronized void newReports(int round,String apitype,String apiname,String datatag,String message,Timestamp starttime,
 			Timestamp endtime,String exectime,String responsecode,String status,String testcasename,
 			String projectname,String requesturl,String requestdata,String responsedata){
-		serverDao.newReports(round, apitype, apiname, message, starttime, endtime, exectime, responsecode, status,testcasename,projectname,requesturl,requestdata,responsedata);
+		serverDao.newReports(round, apitype, apiname,datatag, message, starttime, endtime, exectime, responsecode, status,testcasename,projectname,requesturl,requestdata,responsedata);
 		session.commit();
 	}
 	

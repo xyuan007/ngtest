@@ -1,9 +1,6 @@
 package com.xyuan.ngtest.Util;
 
 import java.io.FileInputStream;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -49,8 +46,17 @@ public class MyXMLUtil {
 		return ((Element)this.root.selectSingleNode(String.format("/TestSuite/method[@name=\"%s\"]/TestCase[@name=\"%s\"]",method,testcasename))).getTextTrim();
 	}
 	
+	public String getFlowAssertString(String testcasename,String methodname,String datatag){
+		return ((Element)this.root.selectSingleNode(String.format("/TestSuite/TestFlow[@name=\"%s\"]/TestMethod[@name=\"%s\"]/TestData[@name=\"%s\"]",testcasename,methodname,datatag))).getTextTrim();
+	}
+	
+	public String getFlowAssertMode(String testcasename,String methodname,String datatag){
+		Element ele = ((Element)this.root.selectSingleNode(String.format("/TestSuite/TestFlow[@name=\"%s\"]/TestMethod[@name=\"%s\"]/TestData[@name=\"%s\"]",testcasename,methodname,datatag)));
+		return ele.attributeValue("mode");
+	}
+	
 	public String getAssertMode(String method,String testcasename){
-		Element ele = (Element)this.root.selectSingleNode(String.format("/TestSuite/method[@name=\"%s\"]/TestCase[@name=\"%s\"]",method,testcasename));
+//		Element ele = (Element)this.root.selectSingleNode(String.format("/TestSuite/method[@name=\"%s\"]/TestCase[@name=\"%s\"]",method,testcasename));
 		return ((Element)this.root.selectSingleNode(String.format("/TestSuite/method[@name=\"%s\"]/TestCase[@name=\"%s\"]",method,testcasename))).attributeValue("mode");
 	}
 	

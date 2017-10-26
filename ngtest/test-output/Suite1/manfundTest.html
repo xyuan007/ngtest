@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  manfundTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>manfundTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 19 09:28:36 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7038 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_baseinfo()'><b>fund_baseinfo</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@1f9e39d3 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6e0168d1 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_dailyperf()'><b>fund_dailyperf</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@3973824b [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@74479617 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_detailinfo()'><b>fund_detailinfo</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@9746c4a [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@18a4cd29 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_factiorinfo()'><b>fund_factiorinfo</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@1f11c79a [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@35551472 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_highposition()'><b>fund_highposition</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@13c73008 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2f8daf6d [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_navdata()'><b>fund_navdata</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@23fa8bbc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3914743f [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_newsinfo()'><b>fund_newsinfo</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@57237a0b [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7598ff30 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_search()'><b>fund_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@5dfc6c89 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2e580954 [Attribute: name name value "no_conds"]]/>]</td>
+<td></td>
+<td>2</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_search()'><b>fund_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@7bdc094c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@7351b247 [Attribute: name name value "single_conds"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_search()'><b>fund_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@6370f5a8 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@48216a7e [Attribute: name name value "multi_conds"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_search()'><b>fund_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@31b963ea [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@b4c0780 [Attribute: name name value "no_result"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.fund_tree()'><b>fund_tree</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@3f609d06 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@4be85a06 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_baseinfo()'><b>man_baseinfo</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@60454af0 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@37032a82 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_fundlist()'><b>man_fundlist</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@4d2c1e15 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@40ead96 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_newsinfo()'><b>man_newsinfo</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@76dd440c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@59fe9f37 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_search()'><b>man_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@6d12f277 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@45e4998 [Attribute: name name value "no_conds"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_search()'><b>man_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@76b1021e [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@641a6c27 [Attribute: name name value "single_conds"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_search()'><b>man_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@1d64a4bf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@267b9cb8 [Attribute: name name value "multi_conds"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_search()'><b>man_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@28bbfa57 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@1b0a1fcc [Attribute: name name value "no_result"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_search()'><b>man_search</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@1715bdd1 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@5157f039 [Attribute: name name value "date_conds"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+<tr>
+<td title='com.xyuan.ngtest.ps.test.manfund.man_tree()'><b>man_tree</b><br>Test class: com.xyuan.ngtest.ps.test.manfund<br>Parameters: org.dom4j.tree.DefaultElement@3e6ccddc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@42e8a624 [Attribute: name name value "search"]]/>]</td>
+<td></td>
+<td>0</td>
+<td>com.xyuan.ngtest.ps.test.manfund@4520ebad</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestFlow name="login">
+		<TestMethod name='login'>
+			<TestData name='login'>{"sta":1,"data":{"username":"liangxuqing","realname":"梁旭清"},"msg":"操作成功！"}</TestData>		
+		</TestMethod>
+	</TestFlow>	
+	<TestFlow name="favfocusgroupTest">
+		<TestMethod name='favfocusgroup_create'>
+			<TestData name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestData>		
+		</TestMethod>
+		<TestMethod name='favfocusgroup_checkname'>
+			<TestData name='checkexist'>"msg":"名称已存在"}</TestData>		
+			<TestData name='checknotexist'>{"sta":1,"data":0,"msg":"可以使用"}</TestData>		
+		</TestMethod>
+		<TestMethod name='favfocusgroup_update'>
+			<TestData name='test'>{"sta":1,"msg":"成功","data":{"groupName":"comptest111","groupType":"comp","id"</TestData>		
+		</TestMethod>
+		<TestMethod name='favfocusgroup_list'>
+			<TestData name='test'>{"sta":1,"data":{"result":[</TestData>		
+		</TestMethod>
+		<TestMethod name='favfocusgroup_delete'>
+			<TestData name='test'>"groupType":"comp"</TestData>		
+		</TestMethod>								
+	</TestFlow>		
+	
+</TestSuite>

@@ -15,13 +15,13 @@ import com.xyuan.ngtest.process.IExecute;
 public class httpgetProcesser implements IExecute{
 	private static MyLog loger = MyLog.getLoger();
 	
-	public String execute(Element data,Element config,String modelname) throws Exception{
+	public String execute(Element data,Element config,String apiName) throws Exception{
 		String response = null;
 		String testcaseName = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getTestcaseName();
 		
 		loger.info("开始执行HTTP处理流程");
 		//配置数据
-		loger.info("取得配置数据数据" + modelname);
+		loger.info("取得配置数据数据" + apiName);
 		ConfigData cd = ConfigHelper.getConfigData(config);
 		
 		//业务数据

@@ -66,7 +66,7 @@ public class ConfigHelper {
 			cd.setHeaders(header);
 		}
 		catch(Exception e){
-			String logInfo = "获得模块" + PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getModelName() + "的配置数据时出错：" + e.getMessage();
+			String logInfo = "获得模块" + PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getMethodName() + "的配置数据时出错：" + e.getMessage();
 			loger.error(logInfo);
 			throw new Exception(logInfo);
 		}

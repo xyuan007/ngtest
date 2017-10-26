@@ -31,13 +31,13 @@ import com.xyuan.ngtest.process.IExecute;
 public class httppostProcesser implements IExecute{
 	private static MyLog loger = MyLog.getLoger();
 	
-	public String execute(Element data,Element config,String modelname) throws Exception{
+	public String execute(Element data,Element config,String apiName) throws Exception{
 		String response = null;
 		ITestcaseData itd = null;
 		
 		loger.info("开始执行HTTP处理流程");
 		//配置数据
-		loger.info("取得配置数据数据" + modelname);
+		loger.info("取得配置数据数据" + apiName);
 		ConfigData cd = ConfigHelper.getConfigData(config);
 		
 		//业务数据

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestMethod name='fund_baseinfo'>
+		<TestCase name='search'>
+			{fundId: "142953"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_dailyperf'>
+		<TestCase name='search'>
+			{fundId: "142953"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_detailinfo'>
+		<TestCase name='search'>
+			{fundId: "2278"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_factiorinfo'>
+		<TestCase name='search'>
+			{fundId: "142953"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_highposition'>
+		<TestCase name='search'>
+			{fundId: "11975"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_navdata'>
+		<TestCase name='search'>
+			{fundId: "142953"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_newsinfo'>
+		<TestCase name='search'>
+			{fundId: "2278"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='fund_search'>
+		<TestCase name='no_conds'>
+			{conds: [], pageNo: "1", pageSize: "20"}
+		</TestCase>
+		<TestCase name='single_conds'>
+			{conds: [{id: 71, dataType: "200", cval: "远航明达1号证券投资基金"}], pageNo: "1", pageSize: "20"}
+		</TestCase>
+		<TestCase name='multi_conds'>
+			{conds: [{id: 71, dataType: "200", cval: "远航明达1号证券投资基金"}, {id: "73", dataType: "300", cval: "2015-05-05"}], pageNo: "1", pageSize: "20"}
+		</TestCase>	
+		<!-- 无结果 -->	
+		<TestCase name='no_result'>
+			{"conds":[{id: 71, dataType: "200", cval: "远航明达1号证券投资基金"}, {id: "73", dataType: "300", cval: "2015-05-05"},{id: "79", dataType: "200", cval: "已终止"}],"pageNo":"1","pageSize":"20"}
+		</TestCase>	
+	</TestMethod>	
+	<TestMethod name='fund_tree'>
+		<TestCase name='search'>
+			{}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='man_baseinfo'>
+		<TestCase name='search'>
+			{manId: "1", pageNo: "1", pageSize: "5"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='man_fundlist'>
+		<TestCase name='search'>
+			{manId: "918", pageNo: "1", pageSize: "5"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='man_newsinfo'>
+		<TestCase name='search'>
+			{manId: "1", pageNo: "1", pageSize: "5"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='man_search'>
+		<TestCase name='no_conds'>
+			{conds: [], pageNo: "1", pageSize: "20"}
+		</TestCase>
+		<TestCase name='single_conds'>
+			{conds: [{id: 41, dataType: "270", cval: "苏卓"}], pageNo: "1", pageSize: "20"}
+		</TestCase>
+		<TestCase name='multi_conds'>
+			{conds: [{id: 41, dataType: "270", cval: "苏卓"}, {id: "44", dataType: "200", cval: ""}], pageNo: "1", pageSize: "20"}
+		</TestCase>	
+		<!-- 无结果 -->	
+		<TestCase name='no_result'>
+			{"conds":[{id: 41, dataType: "270", cval: "苏卓"}, {id: "47", dataType: "200", cval: "加"}],"pageNo":"1","pageSize":"20"}
+		</TestCase>	
+		<!-- 日期-区间 -->
+		<TestCase name='date_conds'>
+			{conds: [{"id": "60", dataType: "360", cval: "2015-09-09;2016-04-13"}], pageNo: "1", pageSize: "20"}
+		</TestCase>	
+	</TestMethod>	
+	<TestMethod name='man_tree'>
+		<TestCase name='search'>
+			{}
+		</TestCase>
+	</TestMethod>							
+</TestSuite>

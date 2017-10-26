@@ -10,13 +10,17 @@
 		where day=CURDATE() and round=#{round} and projectname=#{projectname} and status = "执行中";
     </update>    
     
-    <select id="getMaxRound" resultType="int">
+	<select id="getMaxRound" resultType="int">
         select IFNULL(max(round),0) from api_runreports where day=CURDATE() and projectname=#{projectname}
+	</select>
+    
+    <select id="getRunedTestCase" resultType="String">
+        select distinct testcasename from api_detailreports where day=CURDATE() and round=#{round} and apiname=#{apiname}
     </select>
     
     <insert id="newReports">
-		insert into api_detailreports(day,round,apitype,apiname,status,responsecode,message,starttime,endtime,exectime,createtime,testcasename,projectname,requesturl,requestdata,responsedata) 
-		values(CURDATE(),#{round},#{apitype},#{apiname},#{status},#{responsecode},#{message},#{starttime},#{endtime},#{exectime},NOW(),#{testcasename},#{projectname},#{requesturl},#{requestdata},#{responsedata});
+		insert into api_detailreports(day,round,apitype,apiname,datatag,status,responsecode,message,starttime,endtime,exectime,createtime,testcasename,projectname,requesturl,requestdata,responsedata) 
+		values(CURDATE(),#{round},#{apitype},#{apiname},#{datatag},#{status},#{responsecode},#{message},#{starttime},#{endtime},#{exectime},NOW(),#{testcasename},#{projectname},#{requesturl},#{requestdata},#{responsedata});
     </insert>   
     
     <insert id="newLog">

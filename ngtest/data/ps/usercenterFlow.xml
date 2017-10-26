@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestFlow name='favfocusgroupTest'>
+		<TestMethod name='favfocusgroup_create'>
+			<TestData name='test'>
+				{groupName: "comptest", groupType: "comp"}
+			</TestData>
+		</TestMethod>
+		<TestMethod name='favfocusgroup_checkname'>
+			<TestData name='checkexist'>
+				<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+				<groupName>comptest</groupName>
+				<groupType>comp</groupType>
+			</TestData>
+			<TestData name='checknotexist'>
+				<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+				<groupName>comptest111</groupName>
+				<groupType>comp</groupType>
+			</TestData>	
+		</TestMethod>	
+		<TestMethod name='favfocusgroup_list'>
+			<TestData name='test'>
+				{groupType: "comp", pageNo: "1", pageSize: "100"}
+			</TestData>
+		</TestMethod>
+		<TestMethod name='favfocusgroup_update'>
+			<TestData name='test'>
+				<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+				<groupName>comptest111</groupName>
+				<groupType>comp</groupType>
+			</TestData>
+		</TestMethod>			
+		<TestMethod name='favfocusgroup_delete'>
+			<TestData name='test'>
+				<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+			</TestData>
+		</TestMethod>	
+	</TestFlow>
+</TestSuite>

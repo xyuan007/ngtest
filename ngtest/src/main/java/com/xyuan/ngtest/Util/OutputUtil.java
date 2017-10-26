@@ -13,8 +13,9 @@ public class OutputUtil {
 		for(int i=0;i<output.size();i++){
 			Element temp = (Element)output.get(i);
 			String key = temp.attributeValue("name");
+			String type = temp.attributeValue("type");
 			String resKey = temp.getTextTrim();
-			String value = JsonUtil.getOutput(resKey,response);
+			String value = JsonUtil.getOutput(resKey,type,response);
 			
 			PublicDataHelper.getIns(Thread.currentThread().getId()).getOutput().setValue(key, value);
 		}
@@ -24,4 +25,6 @@ public class OutputUtil {
 		return (String) PublicDataHelper.getIns(Thread.currentThread().getId()).getOutput().getValue(key);
 	}
 	
+	public static void main(String[] args){
+	}
 }

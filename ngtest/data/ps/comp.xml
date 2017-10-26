@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestMethod name='lawcourtnoticelist'>
+		<TestCase name='test'>
+			{compId: "124282",pageNo:"1",pageSize:"20"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='lawexecdetail'>
+		<TestCase name='test'>
+			{compId: "104179",id:"1"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='lawexecutedlist'>
+		<TestCase name='test'>
+			{compId: "104179",pageNo:"1",pageSize:"20"}
+		</TestCase>
+		<TestCase name='noparam'>{}</TestCase>
+	</TestMethod>
+	<TestMethod name='lawholdcourtinfodetail'>
+		<TestCase name='test'>
+			{compId: "101198"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='lawholdcourtinfolist'>
+		<TestCase name='test'>
+			{compId: "101198",pageNo:"1",pageSize:"20"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='manadministrativesanctiondetail'>
+		<TestCase name='test'>
+			{manId: "1"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='manadministrativesanctionlist'>
+		<TestCase name='test'>
+			{manId: "1",pageNo:"1",pageSize:"20"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='repadministrativesanctiondetail'>
+		<TestCase name='test'>
+			{compId: "298"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='repadministrativesanctionlist'>
+		<TestCase name='test'>
+			{compId: "122917",pageNo:"1",pageSize:"20"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='compassociationinfolllist'>
+		<TestCase name='comp'>
+			{"objId": "124214","objType": "comp"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='abnormaloperate'>
+		<TestCase name='test'>
+			{compId: "104179",pageNo:"1",pageSize:"20"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='adminsanction'>
+		<TestCase name='test'>
+			{compId: "104179",pageNo:"1",pageSize:"20"}
+		</TestCase>
+	</TestMethod>
+
+	<TestMethod name='all_search'>
+		<!-- 无查询条件 -->
+		<TestCase name='allsearch'>
+			{cval: ""}
+		</TestCase>
+		<!-- 有查询条件 -->
+		<TestCase name='conditionsearch'>
+			{cval: "天下"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_askcontext'>
+		<TestCase name='search'>
+			{compId: "99465", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_askcontextdetail'>
+		<TestCase name='search'>
+			{compId: "99265", manNames: "张亚锋", surveyDt: "2015-03-18", ticker: "300054"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_assoinfo'>
+		<TestCase name='search'>
+			{compId: "104724", pageSize: 5}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='comp_baseinfo'>
+		<TestCase name='search'>
+			{compId: "109086", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_buss_bsinfo'>
+		<TestCase name='search'>
+			{compId: "99265", pageNo: 1, pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_buss_changehis'>
+		<TestCase name='search'>
+			{compId: "99265", pageNo: 1, pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_buss_shareholderinfo'>
+		<TestCase name='search'>
+			{compId: "99265", pageNo: 1, pageSize: 5}
+		</TestCase>
+	</TestMethod>			
+	<TestMethod name='comp_corepeople'>
+		<TestCase name='search'>
+			{compId: "100335", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_descinfo'>
+		<TestCase name='search'>
+			{compId: "100335", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_fundinfo'>
+		<TestCase name='search'>
+			{compId: "109086", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_newsinfo'>
+		<TestCase name='search'>
+			{compId: "30645", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_prizeinfo'>
+		<TestCase name='search'>
+			{compId: "100335", pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_run_infos'>
+		<TestCase name='court_notice'>
+			{compId: "99577", pageNo: 1, pageSize: 5}
+		</TestCase>
+		<TestCase name='executed'>
+			{compId: "99276", pageNo: 1, pageSize: 5}
+		</TestCase>
+		<TestCase name='hold_court_info'>
+			{compId: "99577", pageNo: 1, pageSize: 5}
+		</TestCase>
+		<TestCase name='judgement_doc'>
+			{compId: "101373", pageNo: 1, pageSize: 5}
+		</TestCase>		
+	</TestMethod>
+	<TestMethod name='comp_run_intinfos'>
+		<TestCase name='webiste'>
+			{compId: "99577", pageNo: 1, pageSize: 5}
+		</TestCase>
+		<TestCase name='copyrights'>
+			{compId: "99558", pageNo: 1, pageSize: 5}
+		</TestCase>	
+		<TestCase name='certificate'>
+			{compId: "104395", pageNo: 1, pageSize: 5}
+		</TestCase>	
+		<TestCase name='patent'>
+			{compId: "101663", pageNo: 1, pageSize: 5}
+		</TestCase>	
+		<TestCase name='softcopyright'>
+			{compId: "122884", pageNo: 1, pageSize: 5}
+		</TestCase>	
+	</TestMethod>
+	<TestMethod name='comp_run_investabroad'>
+		<TestCase name='search'>
+			{compId: "99577", pageNo: 1, pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_run_recruitinfo'>
+		<TestCase name='search'>
+			{compId: "99577", pageNo: 1, pageSize: 5}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_run_recruitinfodetail'>
+		<TestCase name='search'>
+			{id: "10536"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_run_taxinfo'>
+		<TestCase name='search'>
+			{compId: "99577", pageNo: 1, pageSize: 5}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='comp_search'>
+		<TestCase name='single_conds'>
+			{conds: [{id: 2, dataType: "270", cval: "天下"}], pageNo: "1", pageSize: "20"}
+		</TestCase>
+		<!-- 多查询条件，带下拉列表 -->
+		<TestCase name='multi_conds'>
+			{"conds":[{id: 2, dataType: "270", cval: "天下"}, {id: "5", dataType: "200", cval: "北京市"}],"pageNo":"1","pageSize":"20"}
+		</TestCase>	
+		<!-- 无结果 -->	
+		<TestCase name='no_result'>
+			{"conds":[{id: 2, dataType: "200", cval: "天下"}, {id: "5", dataType: "200", cval: "北京市"}],"pageNo":"1","pageSize":"20"}
+		</TestCase>	
+		<!-- 无查询条件 -->
+		<TestCase name='no_conds'>
+			{conds: [], pageNo: "1", pageSize: "20"}
+		</TestCase>	
+		<!-- 数字-等于 -->
+		<TestCase name='number_conds'>
+			{conds: [{id: "19", dataType: "100", cval: "5"}], pageNo: "1", pageSize: "20"}
+		</TestCase>	
+		<!-- 日期-大于等于 -->
+		<TestCase name='date_conds'>
+			{conds: [{id: "6", dataType: "330", cval: "2016-09-07"}], pageNo: "1", pageSize: "20"}
+		</TestCase>	
+	</TestMethod>	
+	<TestMethod name='comp_tree'>
+		<TestCase name='search'>
+			{}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='comp_yearreport_baseinfo'>
+		<TestCase name='search'>
+			{compId: "108250", pageNo: 1, pageSize: 5, reportYear: "2016"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='comp_yearreport_investinfo'>
+		<TestCase name='search'>
+			{compId: "108250", pageNo: 1, pageSize: 5, reportYear: "2016"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='comp_yearreport_sponsor'>
+		<TestCase name='search'>
+			{compId: "108250", pageNo: 1, pageSize: 5, reportYear: "2016"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='comp_yearreport_years'>
+		<TestCase name='search'>
+			{compId: "108250"}
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='comp_yearreport_stockchanges'>
+		<TestCase name='search'>
+			{compId: "108250",reportYear:"2013年度报告"}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='dimenum'>
+		<TestCase name='cityenum'>
+			{menuId: 5}
+		</TestCase>
+	</TestMethod>	
+</TestSuite>

@@ -1,90 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuite>
+	<method name="login">
+		<TestCase name='login'>{"sta":1,"data":{"username":"liangxuqing","realname":"梁旭清"},"msg":"操作成功！"}</TestCase>		
+	</method>	
 	<method name="favfocuslistcomp">
-		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[{"groupType":"comp","createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"data":{"result":[{"groupType":"comp","createTime"</TestCase>
 	</method>	
 	<method name="favfocuslistman">
-		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[{"groupType":"man","compFullName"</TestCase>
+		<TestCase name='test'>{"sta":1,"data":{"result":[{"groupType":"man","compFullName"</TestCase>
 	</method>	
 	<method name="favfocuslistfund">
-		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[{"groupType":"fund","compFullName"</TestCase>
+		<TestCase name='test'>{"sta":1,"data":{"result":[{"groupType":"fund","compFullName"</TestCase>
 	</method>	
 	<method name="favfocusgroup_list">
-		<TestCase name='test' mode='contains'>{"sta":1,"data":{"result":[</TestCase>
+		<TestCase name='test'>{"sta":1,"data":{"result":[</TestCase>
 	</method>	
 	<method name="favfocusgroup_checkname">
 		<TestCase name='checkok'>{"sta":1,"data":0,"msg":"可以使用"}</TestCase>
-		<TestCase name='checkfail' mode='contains'>"msg":"名称已存在"}</TestCase>	
+		<TestCase name='checkfail'>"msg":"名称已存在"}</TestCase>	
 	</method>	
 	<method name="favfocusgroup_update">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"groupName":"comptest111","groupType":"comp","id"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"groupName":"comptest111","groupType":"comp","id"</TestCase>
 	</method>	
 	<method name="favfocusgroup_create">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>	
 	<method name="favfocusgroup_delete">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"groupName":"comptest111","groupType":"comp","id"</TestCase>
+		<TestCase name='test'>"groupType":"comp"</TestCase>
 	</method>	
+	<method name="favfocusflag">
+		<TestCase name='test'>{"sta":1,"data":0,"msg":"未关注"}</TestCase>
+	</method>		
 	<method name="favfocus_update">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>	
 	<method name="favfocus_delete">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>
 	<method name="favfocus_create">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>	
 	<method name="favmenu_list">
-		<TestCase name='test' mode='contains'>"pageNo":1,"pageSize":20,"totalPage":1},"msg":"ok"}</TestCase>
+		<TestCase name='test'>"pageNo":1,"pageSize":20,"totalPage":1},"msg":"ok"}</TestCase>
 	</method>
 	<method name="favmenu_checkname">
 		<TestCase name='checkok'>{"sta":1,"data":0,"msg":"可以使用"}</TestCase>
-		<TestCase name='checkfail' mode='contains'>"msg":"名称已存在"}</TestCase>		
+		<TestCase name='checkfail'>"msg":"名称已存在"}</TestCase>		
 	</method>	
 	<method name="favmenu_create">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"id"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"id"</TestCase>
 	</method>	
 	<method name="favmenu_update">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>
 	<method name="favmenu_delete">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"createTime"</TestCase>
 	</method>	
 	<method name="favmenu_detail">
-		<TestCase name='test' mode='contains'>"menuName":"test","menuContent":"[{\"id\":\"3\",\"dataType\":\"200\",\"cval\":\"test\"}]"}}</TestCase>
+		<TestCase name='test'>"menuName":"test","menuContent":"[{\"id\":\"3\",\"dataType\":\"200\",\"cval\":\"test\"}]"}}</TestCase>
 	</method>		
 	<method name="message_create">
-		<TestCase name='test' mode='contains'>{"sta":1,"msg":"成功","data":{"content":"123"</TestCase>
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"content":"123"</TestCase>
 	</method>	
 	<method name="user_baseinfo">
-		<TestCase name='search' mode='contains'>"userName":"liangxuqing","realName":"梁旭清"</TestCase>
+		<TestCase name='search'>"userName":"liangxuqing","realName":"梁旭清"</TestCase>
 	</method>	
 	<method name="usertrack_create">
-		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='comp'>"isValid":1,"trackType":"comp","trackValue"</TestCase>
+		<TestCase name='man'>"isValid":1,"trackType":"man","trackValue"</TestCase>		
 	</method>	
 	<method name="usertrack_list">
-		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='comp'>"trackValue":"北京仓红投资管理有限公司"</TestCase>
+		<TestCase name='man'>"trackValue":"丁军"</TestCase>		
+		<TestCase name='all'>"trackValue":"丁军"</TestCase>			
 	</method>	
 	<method name="usertrack_edit">
-		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='comp'>{"sta":1,"data":1,"msg":"成功"}</TestCase>
+		<TestCase name='man'>{"sta":1,"data":1,"msg":"成功"}</TestCase>		
 	</method>	
 	<method name="usertrack_delete">
-		<TestCase name='comp' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='comp'>{"sta":1,"data":1,"msg":"成功"}</TestCase>
+		<TestCase name='man'>{"sta":1,"data":1,"msg":"成功"}</TestCase>		
 	</method>	
 	<method name="negativeinfo_manlist">
-		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='test'>"executeCode":"(2016)闽0721民初2175号","manName":"余建军"</TestCase>
 	</method>	
 	<method name="negativeinfo_mandetail">
-		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='test'>{"sta":1,"data":{"sex":"男","publishTime":"2017-06-14","manId":0,"dishonestBehavior":"有履行能力而拒不履行生效法律文书确定义务","code":"4110821982****9010","executeCode":"（2016）豫1082民初3598号","manName":"符永涛","id":2,"obligation":"偿还申请人67675元，执行费915元。","filingTime":"2017-06-01","caseCode":"(2017)豫1082执1029号","performance":"全部未履行","age":"3","executeCourt":"长葛市人民法院","name":"符永涛","province":"河南","verdictSubject":"长葛市人民法院"},"msg":"ok"}</TestCase>
 	</method>	
 	<method name="negativeinfo_allstatis">
-		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='test'>"abnormalType":"基协异常"</TestCase>
 	</method>	
 	<method name="negativeinfo_complist">
-		<TestCase name='test' mode='contains'>"trackValueId":130728</TestCase>
+		<TestCase name='test'>"analyzeDate":"2017-10-12","trackValue":"颢兴资本管理（深圳）有限公司","abnormalType":"基协异常"}]</TestCase>
 	</method>	
-
+	<method name="negativeinfo_stais">
+		<TestCase name='test'>"abnormalType":"工商异常"</TestCase>
+	</method>	
 	
-	
-	
+	<method name="userinfo_list">
+		<TestCase name='test'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="userinfo_add">
+		<TestCase name='test'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="userinfo_update">
+		<TestCase name='test'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="userinfo_delete">
+		<TestCase name='test'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="userinfo_resetpwd">
+		<TestCase name='test'>"trackValueId":130728</TestCase>
+	</method>	
+	<method name="usergroup_list">
+		<TestCase name='single'>"groupName":"groupTest","compUserId":"8","isValid":1}],"totalCount":1,"pageNo":1,"pageSize":20,"totalPage":1},"msg":"操作成功"}</TestCase>
+		<TestCase name='all'>"groupName":"groupTest","compUserId":"8","isValid":1}]</TestCase>		
+	</method>	
+	<method name="usergroup_add">
+		<TestCase name='test'>{"sta":1,"msg":"成功","data":{"compUserId"</TestCase>
+	</method>	
+	<method name="usergroup_delete">
+		<TestCase name='test'>{"sta":1,"msg":"操作成功！"}</TestCase>
+	</method>	
+	<method name="usergroup_checkname">
+		<TestCase name='checkok'>"msg":"操作成功"}</TestCase>
+		<TestCase name='checkfail'>{"sta":1,"data":0,"msg":"暂无相关数据"}</TestCase>		
+	</method>		
+	<method name="auth_smssend">
+		<TestCase name='test'>{"sta":1,"data":"成功(未实际发送):</TestCase>
+	</method>	
+	<method name="auth_checks">
+		<TestCase name='checkexist'>{"sta":1,"data":"0","msg":"操作成功！"}</TestCase>
+		<TestCase name='checkok'>{"sta":1,"data":"1","msg":"操作成功！"}</TestCase>		
+	</method>
+	<method name="bindmobile">
+		<TestCase name='bindok'>{"sta":1,"data":"绑定成功!","msg":"操作成功！"}</TestCase>
+		<TestCase name='bindfail'>{"sta":0,"data":"短信验证码不正确","msg":"操作失败！"}</TestCase>		
+	</method>		
 </TestSuite>

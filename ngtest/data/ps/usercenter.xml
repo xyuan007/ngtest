@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuite>
+	<TestMethod name='login'>
+		<TestCase name='login'>{"username":"liangxuqing","password":"11111111","isdev":"true"}</TestCase>
+	</TestMethod>
+	<TestMethod name='favfocusgroup_checkname'>
+		<TestCase name='checkok'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+			<groupName>comptest111</groupName>
+			<groupType>comp</groupType>
+		</TestCase>
+		<TestCase name='checkfail'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+			<groupName>comptest</groupName>
+			<groupType>comp</groupType>
+		</TestCase>	
+	</TestMethod>
+	<TestMethod name='favfocusgroup_create'>
+		<TestCase name='test'>
+			{groupName: "comptest", groupType: "comp"}
+		</TestCase>
+		</TestMethod>	
+	<TestMethod name='favfocusgroup_delete'>
+		<TestCase name='test'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favfocusgroup_list'>
+		<TestCase name='test'>
+			{groupType: "comp", pageNo: "1", pageSize: "100"}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='favfocusgroup_update'>
+		<TestCase name='test'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+			<groupName>comptest111</groupName>
+			<groupType>comp</groupType>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favfocuslistcomp'>
+		<TestCase name='test'>
+			{groupId: "", pageNo: "1", pageSize: "20"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favfocuslistfund'>
+		<TestCase name='test'>
+			{groupId: "", pageNo: "1", pageSize: "20"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favfocuslistman'>
+		<TestCase name='test'>
+			{groupId: "", pageNo: "1", pageSize: "20"}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='favfocus_create'>
+		<TestCase name='test'>
+			<groupId name='favfocusgroupid' type='output'>favfocusgroupid</groupId>
+			<objId>121580</objId>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favfocus_delete'>
+		<TestCase name='test'>
+			<id name='favfocusid' type='output'>favfocusid</id>
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='favfocus_update'>
+		<TestCase name='test'>
+			<id name='favfocusid' type='output'>favfocusid</id>	
+			<groupId name='favfocusgroupid' type='output'>favfocusgroupid</groupId>
+			<objId>121580</objId>
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='favmenu_checkname'>
+		<TestCase name='checkok'>
+			{menuName: "test1123123"}
+		</TestCase>
+		<TestCase name='checkfail'>
+			{menuName: "test"}
+		</TestCase>	
+	</TestMethod>		
+	<TestMethod name='favmenu_create'>
+		<TestCase name='test'>
+			{menuType: "comp", menuName: "test", menuContent: [{id: "3", dataType: "200", cval: "test"}]}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favmenu_delete'>
+		<TestCase name='test'>
+			<id name='favmenuid' type='output'>favmenuid</id>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favmenu_detail'>
+		<TestCase name='test'>
+			<id name='favmenuid' type='output'>favmenuid</id>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='favmenu_list'>
+		<TestCase name='test'>
+			{pageNo: "1", pageSize: "20"}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='favmenu_update'>
+		<TestCase name='test'>
+			<id name='favmenuid' type='output'>favmenuid</id>
+			<menuName>test1</menuName>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='message_create'>
+		<TestCase name='test'>
+			{content: "123", email: "85224271@qq.com", messageType: "consult"}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='negativeinfo_allstatis'>
+		<TestCase name='test'>
+			{}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='negativeinfo_complist'>
+		<TestCase name='test'>
+			{ pageNo: "1", pageSize: "100"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='negativeinfo_mandetail'>
+		<TestCase name='test'>
+			{id: 2}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='negativeinfo_manlist'>
+		<TestCase name='test'>
+			{trackValue: "余建军", pageNo: "1", pageSize: "100"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='negativeinfo_stais'>
+		<TestCase name='test'>
+			{"trackValueId":104971}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='usertrack_create'>
+		<TestCase name='comp'>
+			{isTrack: 1, trackType: "comp", trackValueId: 104971}
+		</TestCase>
+		<TestCase name='man'>
+			{isTrack: 0, trackType: "man", trackValueId: 5}
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='usertrack_delete'>
+		<TestCase name='comp'>
+			{ trackType: "comp", trackValueId: 104971}
+		</TestCase>
+		<TestCase name='man'>
+			<id name='usertrackid' type='output'>usertrackid</id>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='usertrack_edit'>
+		<TestCase name='comp'>
+			<id name='usertrackid' type='output'>usertrackid</id>
+			<isTrack>1</isTrack>			
+		</TestCase>
+		<TestCase name='man'>
+			<id name='usertrackid' type='output'>usertrackid</id>
+			<isTrack>1</isTrack>	
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='usertrack_list'>
+		<TestCase name='comp'>
+			{trackValue: "北京仓红投资管理有限公司", pageNo: "1", pageSize: "100"}
+		</TestCase>
+		<TestCase name='man'>
+			{trackValue: "丁军", pageNo: "1", pageSize: "100"}
+		</TestCase>	
+		<TestCase name='all'>
+			{pageNo: "1", pageSize: "20"}
+		</TestCase>					
+	</TestMethod>	
+	<TestMethod name='user_baseinfo'>
+		<TestCase name='search'></TestCase>
+	</TestMethod>	
+
+	<TestMethod name='userinfo_list'>
+		<TestCase name='test'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+			<groupName>comptest111</groupName>
+			<groupType>comp</groupType>
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='userinfo_add'>
+		<TestCase name='test'>
+			{groupId: "21", phone: "13322221111",email:"test@sohu.com",userName:"test",userPassword:"111111"}
+		</TestCase>
+		</TestMethod>	
+	<TestMethod name='userinfo_update'>
+		<TestCase name='test'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='userinfo_delete'>
+		<TestCase name='test'>
+			{groupType: "comp", pageNo: "1", pageSize: "100"}
+		</TestCase>
+	</TestMethod>		
+	<TestMethod name='userinfo_resetpwd'>
+		<TestCase name='test'>
+			<id name='favfocusgroupid' type='output'>favfocusgroupid</id>
+			<groupName>comptest111</groupName>
+			<groupType>comp</groupType>
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='usergroup_list'>
+		<TestCase name='single'>
+			<groupId name='usergroupid' type='output'>usergroupid</groupId>
+			<groupName>groupTest</groupName>
+			<pageNo>1</pageNo>
+			<pageSize>20</pageSize>			
+		</TestCase>
+		<TestCase name='all'>
+			{pageNo: "1", pageSize: "20"}
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='usergroup_add'>
+		<TestCase name='test'>
+			{groupName: "groupTest"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='usergroup_delete'>
+		<TestCase name='test'>
+			<groupIds name='usergroupid' type='output'>usergroupid</groupIds>
+		</TestCase>
+	</TestMethod>
+	<TestMethod name='usergroup_checkname'>
+		<TestCase name='checkok'>
+			{groupName: "groupTest"}
+		</TestCase>
+		<TestCase name='checkfail'>
+			{groupName: "groupTest111"}
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='favfocusflag'>
+		<TestCase name='test'>
+			{id: "121580",objType:"comp"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='auth_checks'>
+		<TestCase name='checkexist'>
+			{cvalue: "13300000000"}
+		</TestCase>
+		<TestCase name='checkok'>
+			{cvalue: "13300009999"}
+		</TestCase>		
+	</TestMethod>	
+	<TestMethod name='auth_smssend'>
+		<TestCase name='test'>
+			{mobile: "13300009999", type: "2"}
+		</TestCase>
+	</TestMethod>	
+	<TestMethod name='bindmobile'>
+		<TestCase name='bindfail'>
+			<mobile>13300000000</mobile>		
+			<smscode name='vcode' type='output'>vcode</smscode>
+		</TestCase>
+		<TestCase name='bindok'>
+			<mobile>13300009999</mobile>		
+			<smscode name='vcode' type='output'>vcode</smscode>
+		</TestCase>
+	</TestMethod>				
+</TestSuite>

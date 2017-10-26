@@ -5,37 +5,95 @@
     <listener class-name="com.xyuan.ngtest.Listener.TestListener" />
   </listeners>
 
-  <test name="test">
+  <test name="login">
+  	<classes>
+  		<class name="com.xyuan.ngtest.ps.test.SuiteInit"/>    
+  	</classes>
+  </test>
+
+  <test name="compTest">
     <classes>
-		<class name="com.xyuan.ngtest.ps.comp.SuiteInit"/>    
-		<class name="com.xyuan.ngtest.ps.comp.login"/>
-		
-
-
-		<!-- 
-		<class name="com.xyuan.ngtest.ps.comp.manadministrativesanctionlist"/>	
-		<class name="com.xyuan.ngtest.ps.comp.manadministrativesanctiondetail"/>			
-		<class name="com.xyuan.ngtest.ps.comp.lawcourtnoticelist"/>		
-		<class name="com.xyuan.ngtest.ps.comp.lawjudgementdoclist"/>	
-		<class name="com.xyuan.ngtest.ps.comp.lawholdcourtinfolist"/>	
-		<class name="com.xyuan.ngtest.ps.comp.lawholdcourtinfodetail"/>		
-		<class name="com.xyuan.ngtest.ps.comp.lawexecdetail"/>			
-		<class name="com.xyuan.ngtest.ps.comp.compassociationinfolllist"/>	
-		<class name="com.xyuan.ngtest.ps.comp.abnormaloperate"/>	
-		<class name="com.xyuan.ngtest.ps.comp.adminsanction"/>			
-		
-		<class name="com.xyuan.ngtest.ps.usercenter.usertrack_create"/>	
-		<class name="com.xyuan.ngtest.ps.usercenter.usertrack_edit"/>	
-		<class name="com.xyuan.ngtest.ps.usercenter.usertrack_list"/>	
-		<class name="com.xyuan.ngtest.ps.usercenter.usertrack_delete"/>		
-							
-		<class name="com.xyuan.ngtest.ps.usercenter.negativeinfo_allstatis"/>	
-		<class name="com.xyuan.ngtest.ps.usercenter.negativeinfo_stais"/>	
-		
-		<class name="com.xyuan.ngtest.ps.usercenter.negativeinfo_manlist"/>	
-		<class name="com.xyuan.ngtest.ps.usercenter.negativeinfo_mandetail"/>									 
-		 -->
+		<class name="com.xyuan.ngtest.ps.test.usercenter">
+			<methods>  
+				<include name="message_create"></include> 
+				<include name="user_baseinfo"></include> 				
+			</methods>  		
+		</class>	
     </classes>
   </test>
+
+
+<!-- 
+	  <test name="comp">
+		<class name="com.xyuan.ngtest.ps.test.comp">
+			<methods>  
+				<include name="lawexecutedlist"></include> 
+				<include name="manadministrativesanctiondetail"></include> 				
+			</methods>  
+		</class>	  
+
+		<class name="com.xyuan.ngtest.ps.test.comp">
+			<methods>  
+				<include name="negativeinfo_stais"></include>  
+				<include name="negativeinfo_manlist"></include>  	
+				<include name="negativeinfo_manlist"></include> 
+				<include name="negativeinfo_complist"></include> 	
+				<include name="negativeinfo_mandetail"></include> 							
+			</methods>  
+		</class>			
+	  </test>
+	  
+	  <test name="usercenter">
+		
+		<class name="com.xyuan.ngtest.ps.test.usercenter">
+			<methods>  
+				<include name="negativeinfo_stais"></include>  
+				<include name="negativeinfo_manlist"></include>  	
+				<include name="negativeinfo_manlist"></include> 
+				<include name="negativeinfo_complist"></include> 	
+				<include name="negativeinfo_mandetail"></include> 							
+			</methods>  
+		</class>		
+
+	    <classes>
+			<class name="com.xyuan.ngtest.ps.test.usercenter">
+				<methods>  
+					<include name="usergroup_add"></include> 			
+					<include name="usergroup_checkname"></include> 
+					<include name="usergroup_list"></include> 	
+					<include name="usergroup_delete"></include> 												
+				</methods>  
+			</class>
+	    </classes>
+	  </test>		    
+	    
+	  <test name="usertrack_man">
+	  	<parameter name="testcontent" value='man'/>
+	    <classes>
+			<class name="com.xyuan.ngtest.ps.test.usercenter">
+				<methods>  
+					<include name='usertrack_create'></include> 		
+					<include name='usertrack_edit'></include> 
+					<include name='usertrack_list'></include> 
+					<include name='usertrack_delete'></include> 												
+				</methods>  
+			</class>
+	    </classes>
+	  </test>	
+	  
+	  <test name="usertrack_comp">
+	  	<parameter name="testcontent" value='comp'/>
+	    <classes>
+			<class name="com.xyuan.ngtest.ps.test.usercenter">
+				<methods>  
+					<include name='usertrack_create'></include> 		
+					<include name='usertrack_edit'></include> 
+					<include name='usertrack_list'></include> 
+					<include name='usertrack_delete'></include> 												
+				</methods>  
+			</class>
+	    </classes>
+	  </test>	  		    
+-->
 
 </suite>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestSuite>
-	<TestCase name='search'>
-		{compId: "122304", pageSize: 5}
-	</TestCase>
-</TestSuite>

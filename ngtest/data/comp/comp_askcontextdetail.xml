@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestSuite>
-	<TestCase name='search'>
-		{compId: "99265", manNames: "张亚锋", surveyDt: "2015-03-18", ticker: "300054"}
-	</TestCase>
-</TestSuite>

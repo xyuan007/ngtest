@@ -3,7 +3,7 @@ package com.xyuan.ngtest.Helper;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.xyuan.ngtest.datapojo.CaseData;
+import com.xyuan.ngtest.datapojo.TestCaseData;
 import com.xyuan.ngtest.datapojo.RoundData;
 import com.xyuan.ngtest.datapojo.ThreadData;
 
@@ -28,7 +28,7 @@ public class PublicDataHelper {
 		return instance.get(threadID);
 	}
 	
-	public static synchronized CaseData getCasedata(Long threadID){
+	public static synchronized TestCaseData getCasedata(Long threadID){
 		return instance.get(threadID).getCasedata();
 	}
 

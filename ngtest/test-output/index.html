@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite1">
-              <span class="suite-name border-failed">Suite1</span>
+              <span class="suite-name border-passed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite1">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
-                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite1">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.xyuan.ngtest.ps.comp.adminsanction" hash-for-method="test(org.dom4j.tree.DefaultElement@51a6f5cf [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">test(org.dom4j.tree.DefaultElement@51a6f5cf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite1 -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,7 +101,12 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.xyuan.ngtest.ps.comp.login" hash-for-method="login(org.dom4j.tree.DefaultElement@3915dfcc [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">login(org.dom4j.tree.DefaultElement@3915dfcc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.xyuan.ngtest.ps.test.usercenter" hash-for-method="message_create(org.dom4j.tree.DefaultElement@6e039c98 [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">message_create(org.dom4j.tree.DefaultElement@6e039c98 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.xyuan.ngtest.ps.test.usercenter" hash-for-method="user_baseinfo(org.dom4j.tree.DefaultElement@20cf354c [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">user_baseinfo(org.dom4j.tree.DefaultElement@20cf354c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -130,47 +121,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1" class="panel Suite1">
-          <div class="suite-Suite1-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.xyuan.ngtest.ps.comp.adminsanction</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test(org.dom4j.tree.DefaultElement@51a6f5cf [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">
-                  </a> <!-- test(org.dom4j.tree.DefaultElement@51a6f5cf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...) -->
-                  <span class="method-name">test</span>
-                  <span class="parameters">(org.dom4j.tree.DefaultElement@51a6f5cf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6738df53 [Attribute: name name value "test"]]/>], public void com.xyuan.ngtest.ps.comp.adminsanction.test(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception)</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-Expected: a string containing &quot;\&quot;trackValueId\&quot;:130728&quot;
-     but: was &quot;{&quot;sta&quot;:1,&quot;data&quot;:{&quot;result&quot;:[{&quot;decisionTime&quot;:&quot;2017-10-09 17:36:24&quot;,&quot;decisionOrgan&quot;:&quot;就是这样&quot;,&quot;docNumber&quot;:&quot;1&quot;,&quot;type&quot;:&quot;11&quot;,&quot;punishContent&quot;:&quot;有履行能力而拒不履行生效法律文书确定义务&quot;}],&quot;totalCount&quot;:1,&quot;pageNo&quot;:1,&quot;pageSize&quot;:20,&quot;totalPage&quot;:1},&quot;msg&quot;:&quot;ok&quot;}&quot;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.xyuan.ngtest.MyAssert.MyAssert.asserting(MyAssert.java:12)
-	at com.xyuan.ngtest.ps.comp.adminsanction.test(adminsanction.java:33)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-failed -->
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.xyuan.ngtest.ps.comp.login</span>
+              <span class="class-name">com.xyuan.ngtest.ps.test.usercenter</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(org.dom4j.tree.DefaultElement@3915dfcc [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">
-                  </a> <!-- login(org.dom4j.tree.DefaultElement@3915dfcc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(org.dom4j.tree.DefaultElement@3915dfcc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@3748cd22 [Attribute: name name value "login"]]/>], public void com.xyuan.ngtest.ps.comp.login.login(org.dom4j.Element,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <a name="message_create(org.dom4j.tree.DefaultElement@6e039c98 [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">
+                  </a> <!-- message_create(org.dom4j.tree.DefaultElement@6e039c98 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...) -->
+                  <span class="method-name">message_create</span>
+                  <span class="parameters">(org.dom4j.tree.DefaultElement@6e039c98 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@2d546ca9 [Attribute: name name value "test"]]/>])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_baseinfo(org.dom4j.tree.DefaultElement@20cf354c [Element: &lt;TestCase attributes: [org.dom4j.tree.DefaultAttrib...)">
+                  </a> <!-- user_baseinfo(org.dom4j.tree.DefaultElement@20cf354c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...) -->
+                  <span class="method-name">user_baseinfo</span>
+                  <span class="parameters">(org.dom4j.tree.DefaultElement@20cf354c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttribute@6447190d [Attribute: name name value "search"]]/>])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,13 +158,21 @@ Expected: a string containing &quot;\&quot;trackValueId\&quot;:130728&quot;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.xyuan.ngtest.Listener.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;test&quot;&gt;
+  &lt;test name=&quot;login&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.xyuan.ngtest.ps.comp.SuiteInit&quot;/&gt;
-      &lt;class name=&quot;com.xyuan.ngtest.ps.comp.login&quot;/&gt;
-      &lt;class name=&quot;com.xyuan.ngtest.ps.comp.adminsanction&quot;/&gt;
+      &lt;class name=&quot;com.xyuan.ngtest.ps.test.SuiteInit&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test --&gt;
+  &lt;/test&gt; &lt;!-- login --&gt;
+  &lt;test name=&quot;compTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xyuan.ngtest.ps.test.usercenter&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;message_create&quot;/&gt;
+          &lt;include name=&quot;user_baseinfo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.xyuan.ngtest.ps.test.usercenter --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- compTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,7 +184,10 @@ Expected: a string containing &quot;\&quot;trackValueId\&quot;:130728&quot;
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">test (3 classes)</span>
+                <span class="test-name">login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">compTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -234,18 +215,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.xyuan.ngtest.ps.comp.login')
-data.setCell(0, 3, 245);
+data.setCell(0, 1, 'message_create')
+data.setCell(0, 2, 'com.xyuan.ngtest.ps.test.usercenter')
+data.setCell(0, 3, 224);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'com.xyuan.ngtest.ps.comp.adminsanction')
-data.setCell(1, 3, 143);
+data.setCell(1, 1, 'user_baseinfo')
+data.setCell(1, 2, 'com.xyuan.ngtest.ps.test.usercenter')
+data.setCell(1, 3, 127);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 388 ms</span>
+              <span class="suite-total-time">Total running time: 351 ms</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -260,9 +241,92 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">39 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.xyuan.ngtest.ps.test.usercenter</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bindmobile</span>
+                <br/>
+                <span class="ignored-method-name">favfocuslistfund</span>
+                <br/>
+                <span class="ignored-method-name">negativeinfo_stais</span>
+                <br/>
+                <span class="ignored-method-name">favfocus_delete</span>
+                <br/>
+                <span class="ignored-method-name">favmenu_delete</span>
+                <br/>
+                <span class="ignored-method-name">userinfo_delete</span>
+                <br/>
+                <span class="ignored-method-name">favfocus_update</span>
+                <br/>
+                <span class="ignored-method-name">favfocuslistcomp</span>
+                <br/>
+                <span class="ignored-method-name">auth_smssend</span>
+                <br/>
+                <span class="ignored-method-name">usergroup_list</span>
+                <br/>
+                <span class="ignored-method-name">userinfo_update</span>
+                <br/>
+                <span class="ignored-method-name">userinfo_add</span>
+                <br/>
+                <span class="ignored-method-name">userinfo_list</span>
+                <br/>
+                <span class="ignored-method-name">negativeinfo_allstatis</span>
+                <br/>
+                <span class="ignored-method-name">usergroup_checkname</span>
+                <br/>
+                <span class="ignored-method-name">favmenu_checkname</span>
+                <br/>
+                <span class="ignored-method-name">favmenu_update</span>
+                <br/>
+                <span class="ignored-method-name">favfocusgroup_list</span>
+                <br/>
+                <span class="ignored-method-name">usergroup_delete</span>
+                <br/>
+                <span class="ignored-method-name">favfocus_create</span>
+                <br/>
+                <span class="ignored-method-name">favfocusflag</span>
+                <br/>
+                <span class="ignored-method-name">usertrack_list</span>
+                <br/>
+                <span class="ignored-method-name">usertrack_create</span>
+                <br/>
+                <span class="ignored-method-name">favmenu_detail</span>
+                <br/>
+                <span class="ignored-method-name">favfocusgroup_checkname</span>
+                <br/>
+                <span class="ignored-method-name">negativeinfo_mandetail</span>
+                <br/>
+                <span class="ignored-method-name">negativeinfo_manlist</span>
+                <br/>
+                <span class="ignored-method-name">auth_checks</span>
+                <br/>
+                <span class="ignored-method-name">userinfo_resetpwd</span>
+                <br/>
+                <span class="ignored-method-name">favfocusgroup_delete</span>
+                <br/>
+                <span class="ignored-method-name">favmenu_list</span>
+                <br/>
+                <span class="ignored-method-name">favfocuslistman</span>
+                <br/>
+                <span class="ignored-method-name">negativeinfo_complist</span>
+                <br/>
+                <span class="ignored-method-name">usertrack_delete</span>
+                <br/>
+                <span class="ignored-method-name">favmenu_create</span>
+                <br/>
+                <span class="ignored-method-name">usertrack_edit</span>
+                <br/>
+                <span class="ignored-method-name">favfocusgroup_create</span>
+                <br/>
+                <span class="ignored-method-name">usergroup_add</span>
+                <br/>
+                <span class="ignored-method-name">favfocusgroup_update</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite1" class="panel">
@@ -271,37 +335,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.xyuan.ngtest.ps.comp.SuiteInit</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.xyuan.ngtest.ps.test.SuiteInit</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">suiteInit</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">login</span>
-                <span class="method-start">679 ms</span>
+                <span class="method-start">627 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.xyuan.ngtest.ps.comp.login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.xyuan.ngtest.ps.test.usercenter</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">login(org.dom4j.tree.DefaultElement@3915dfcc [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</span>
-                <span class="method-start">1715 ms</span>
+                <span class="method-name">message_create(org.dom4j.tree.DefaultElement@6e039c98 [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</span>
+                <span class="method-start">1808 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_baseinfo(org.dom4j.tree.DefaultElement@20cf354c [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</span>
+                <span class="method-start">2067 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.xyuan.ngtest.ps.comp.adminsanction</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test(org.dom4j.tree.DefaultElement@51a6f5cf [Element: <TestCase attributes: [org.dom4j.tree.DefaultAttrib...)</span>
-                <span class="method-start">1991 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.xyuan.ngtest.ps.comp.SuiteInit</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.xyuan.ngtest.ps.test.SuiteInit</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">suiteGC</span>
-                <span class="method-start">2184 ms</span>
+                <span class="method-start">2203 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

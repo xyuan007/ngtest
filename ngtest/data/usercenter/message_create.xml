@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestSuite>
-	<TestCase name='test'>
-		{content: "123", email: "85224271@qq.com", messageType: "consult"}
-	</TestCase>
-
-</TestSuite>

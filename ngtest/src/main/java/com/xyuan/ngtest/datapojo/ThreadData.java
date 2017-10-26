@@ -1,7 +1,7 @@
 package com.xyuan.ngtest.datapojo;
 
 public class ThreadData {
-	private CaseData casedata;
+	private TestCaseData casedata;
 	private OutputData output;
 	private OutputData pubOutput;
 	private boolean  runFlag;
@@ -14,11 +14,11 @@ public class ThreadData {
 		this.runFlag = runFlag;
 	}
 	
-	public void initCaseData(String modelName,String apitype,int round,String testcasename){
-		this.casedata = new CaseData(modelName, apitype, round,testcasename);
+	public void initCaseData(String testcaseName,String apitype,int round,String methodName,String datatag){
+		this.casedata = new TestCaseData(testcaseName, apitype, round,methodName,datatag);
 	}
 
-	public CaseData getCasedata() {
+	public TestCaseData getCasedata() {
 		return casedata;
 	}
 

@@ -4,6 +4,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.sf.json.JSONObject;
 
@@ -32,25 +34,34 @@ public class JsonUtil {
 		return (String) data.get("result");
 	}
 	
-	public static synchronized String getOutput(String key,String response) throws Exception{
-		json = JSONObject.fromObject(response);
-//		assertThat((Integer)json.get("sta"),equalTo(1));
-		String[] path = key.split("\\.");
-		if(path != null && path.length != 0){
-			key = path[path.length-1];
-			for(int i=0;i<path.length-1;i++){
-				json = json.getJSONObject(path[i]);
-			}
-		}
+	public static synchronized String getOutput(String key,String type,String response) throws Exception{
 		
-		return String.valueOf(json.get(key));
+		if(type != null && type.equals("regex")){
+			Pattern p = Pattern.compile(key); 
+			Matcher m = p.matcher(response); 
+			m.find();
+			String res =  m.group();
+			return res;
+		}
+		else {
+			json = JSONObject.fromObject(response);
+			String[] path = key.split("\\.");
+			if(path != null && path.length != 0){
+				key = path[path.length-1];
+				for(int i=0;i<path.length-1;i++){
+					json = json.getJSONObject(path[i]);
+				}
+			}
+			
+			return String.valueOf(json.get(key));
+		}
 	}
 	
 	public static void main(String[] args){
-		JSONObject js = JSONObject.fromObject("{\"sta\":1,\"msg\":\"成功\",\"data\":{\"id\":147}}");
-		JSONObject js1 = js.getJSONObject("data");
-		System.out.println(js1);
-		System.out.println(js1.get("id"));
-
+		Pattern p = Pattern.compile("\\d{6}"); 
+		Matcher m = p.matcher("成功(未实际发送):225230"); 
+		m.find();
+		String res =  m.group();
+		System.out.println(res);
 	}
 }

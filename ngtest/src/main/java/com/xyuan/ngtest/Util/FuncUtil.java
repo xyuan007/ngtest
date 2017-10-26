@@ -179,7 +179,8 @@ public class FuncUtil {
 		int round = PublicDataHelper.getRound().getRound();
 		String testcasename = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getTestcaseName();
 		String apitype = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getApitype();
-		String apiname = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getModelName();	
+		String apiname = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getMethodName();	
+		String datatag = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getDataTag();
 		String responsecode = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getResponsecode();
 		String message = "";
 		String exectime = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getExectime();
@@ -188,7 +189,7 @@ public class FuncUtil {
 		String requestdata = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getRequestData();
 		String responsedata = PublicDataHelper.getIns(Thread.currentThread().getId()).getCasedata().getResponseData();
 		
-		DatabaseHelper.newReports(round, apitype, apiname, message, starttime, endtime, exectime, responsecode, status, testcasename, projectname,requesturl,requestdata,responsedata);
+		DatabaseHelper.newReports(round, apitype, apiname,datatag, message, starttime, endtime, exectime, responsecode, status, testcasename, projectname,requesturl,requestdata,responsedata);
     }
     
     public static String getPSPassword(String modulus) throws Exception{
