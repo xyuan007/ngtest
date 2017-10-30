@@ -11,7 +11,6 @@ import com.xyuan.ngtest.casedata.impl.GetData;
 import com.xyuan.ngtest.datapojo.ConfigData;
 import com.xyuan.ngtest.process.IExecute;
 
-
 public class httpgetProcesser implements IExecute{
 	private static MyLog loger = MyLog.getLoger();
 	

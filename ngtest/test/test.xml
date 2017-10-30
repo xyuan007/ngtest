@@ -18,10 +18,9 @@
 				<include name="message_create"></include> 
 				<include name="user_baseinfo"></include> 				
 			</methods>  		
-		</class>	
+		</class>
     </classes>
   </test>
-
 
 <!-- 
 	  <test name="comp">
